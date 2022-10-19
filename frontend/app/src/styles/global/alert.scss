@@ -1,0 +1,18 @@
+.alert {
+  border: 0;
+  font-size: 16px;
+
+  &.alert-warning {
+    background-color: var(--chromeYellow-20);
+    color: mix(#EBAD00, #000, 65%);
+
+    a {
+      color: mix(#EBAD00, #000, 65%);
+      text-decoration: underline;
+    }
+
+    svg path {
+      stroke: var(--chromeYellow);
+    }
+  }
+}

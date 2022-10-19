@@ -1,0 +1,129 @@
+@import "src/styles/mixins/breakpoints";
+
+.text-field {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 8px 0 0 0;
+    position: relative;
+
+    @include breakpoint('medium') {
+        width: auto !important;
+    }
+
+    label {
+        margin-bottom: 0;
+        font-family: Ilisarniq, sans-serif;
+        font-weight: bold;
+        font-size: 14px;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: var(--main-dark);
+    }
+    input, textarea {
+        font-family: Ilisarniq, sans-serif;
+        border: 1px solid #eaebeb;
+        box-sizing: border-box;
+        font-size: 16px;
+        border-radius: 6px;
+        padding: 8px 16px;
+        outline: none;
+        margin: 0 0 18px;
+
+        &:focus {
+            border: 1px solid var(--main-blue);
+        }
+
+        &:disabled {
+            color: var(--spanishGray);
+            background-color: transparent;
+        }
+    }
+
+    textarea {
+        resize: none;
+        min-height: 96px;
+    }
+
+    .pristine {
+        color: var(--grey);
+    }
+    .error {
+        color: var(--main-red);
+        font-family: Ilisarniq, sans-serif;
+        font-size: 12px;
+        line-height: 150%;
+    }
+    &-error {
+        color: var(--main-red);
+        background: var(--light-red);
+        border: 1px solid var(--main-red) !important;
+        margin-bottom: 0px !important;
+        &::placeholder {
+            color: var(--main-red);
+        }
+    }
+    &-eye {
+        position: absolute;
+        top: 38px;
+        right: 10px;
+    }
+    &-icon {
+        position: absolute;
+        top: 10px;
+        left: 12px;
+    }
+}
+
+.text-area-leading-questions {
+    margin: auto;
+    textarea {
+        min-height: 300px!important;
+    }
+}
+
+.date-picker {
+    font-size: 16px;
+}
+
+.date-picker-label {
+    text-align: left;
+    margin-bottom: 0;
+    font-family: Ilisarniq, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--main-dark);
+}
+
+.pristine {
+    color: var(--grey);
+}
+
+.react-datepicker-wrapper {
+    input {
+        border-radius: 6px;
+        border: 1px solid #eaebeb;
+        outline: none;
+        font-family: Ilisarniq, sans-serif;
+        padding: 8px 16px;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .text-field {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .text-area-leading-questions {
+        width: 300px!important;
+        margin: auto;
+        textarea {
+            min-height: 200px!important;
+            font-size: 14px;
+        }
+    }
+}

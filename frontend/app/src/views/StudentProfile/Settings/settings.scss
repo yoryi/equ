@@ -1,0 +1,44 @@
+.settings {
+    padding-top: 80px;
+    width: 900px;
+    margin: auto;
+    margin-bottom: 60px;
+    margin-top: 40px;
+    display: flex;
+    &-tabs {
+        flex-basis: 300px;
+        min-width: 300px;
+        &-title {
+            font-family: Telegraf, sans-serif;
+            font-weight: 800;
+            font-size: 44px;
+            line-height: 91%;
+            color: var(--secondary-dark);
+            margin-bottom: 46px;
+        }
+        &-item {
+            font-family: Ilisarniq, sans-serif;
+            font-size: 16px;
+            line-height: 150%;
+            color: var(--dark-grey);
+            margin-top: 12px;
+            margin-bottom: 12px;
+            cursor: pointer;
+            &-active, &:hover {
+                span {
+                    color: var(--main-dark);
+                    padding-bottom: 4px;
+                    border-bottom: 2px solid var(--main-dark);
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .settings {
+        width: 100%;
+        padding: 20px;
+        justify-content: center;
+    }
+}

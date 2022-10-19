@@ -1,0 +1,132 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+    "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+:root {
+    --main-dark: #1f242b;
+    --secondary-dark: #1d1d1d;
+    --main-blue: #005dcc;
+    --equedi-blue-20: #CCDFF5;
+    --light-blue: #e5effa;
+    --grey: #707378;
+    --light-grey: #eaebeb;
+    --main-red: #c91c0d;
+    --light-red: #fae8e7;
+    --dark-grey: #474b51;
+
+    --green: #00AC58;
+    --green-10: #E5F7EE;
+
+    --chromeYellow: #EBAD00;
+    --chromeYellow-10: #FDF7E5;
+    --chromeYellow-20: #FBEFCC;
+
+    --spanishGray: #999B9E;
+
+    --lightGrayShadow: rgba(234, 235, 235, 0.12);
+    --blueShadow: rgba(0, 93, 204, 0.12);
+    --yellowShadow: rgba(235, 173, 0, 0.12);
+    --redShadow: rgba(201, 28, 13, 0.12);
+}
+
+@font-face {
+    font-family: "Telegraf";
+    font-style: normal;
+    font-weight: 900;
+    src: url("./assets/fonts/Telegraf UltraBold 800.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Telegraf";
+    font-style: normal;
+    font-weight: normal;
+    src: url("./assets/fonts/Telegraf Regular 400.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Ilisarniq";
+    font-style: normal;
+    font-weight: bold;
+    src: url("./assets/fonts/Ilisarniq-Bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Ilisarniq";
+    font-style: normal;
+    font-weight: normal;
+    src: url("./assets/fonts/Ilisarniq-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Ilisarniq";
+    font-style: normal;
+    font-weight: 600;
+    src: url("./assets/fonts/Ilisarniq-SemiBold.otf") format("opentype");
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+#loader {
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    z-index: 5;
+    background-color: #fff;
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+
+#loader > img {
+    width: 100px;
+    height: 100px;
+}
+
+.loader-hidden {
+    opacity: 0 !important;
+}
+
+.modal-backdrop {
+    transition-duration: 0s !important;
+}
+
+.modal-backdrop.show {
+    opacity: 0.8 !important;
+}
+
+.modal.fade.top:not(.show) .modal-dialog {
+    transform: none !important;
+}
+
+@media (min-width: 992px) {
+    .modal-lg, .modal-xl {
+        max-width: 826px !important;
+    }
+}

@@ -1,0 +1,204 @@
+@import "src/styles/mixins/breakpoints";
+
+.custom-datepicker {
+  &-checkbox {
+    display: flex;
+    margin: 8px 0;
+
+    &-text {
+      margin-left: 8px;
+      font-family: Ilisarniq, sans-serif;
+      font-size: 16px;
+      line-height: 100%;
+      display: flex;
+      align-items: center;
+      color: var(--grey);
+    }
+  }
+
+  &-select-fields {
+    display: flex;
+    align-items: flex-end;
+
+    .select-field {
+      flex-basis: 50%;
+      margin-bottom: 0 !important;
+      min-width: 151px !important;
+
+      label {
+        min-width: 250px;
+      }
+    }
+
+    .select-field:first-child {
+      margin-right: 4px;
+    }
+
+    .select-field:nth-child(2) {
+      margin-left: 4px;
+    }
+  }
+
+  &-present-section {
+    margin-bottom: 8px;
+    height: 74px;
+
+    &-label {
+      font-family: Ilisarniq, sans-serif;
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 100%;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--main-dark);
+      height: 28px;
+      display: flex;
+      align-items: center;
+    }
+
+    &-text {
+      font-family: Ilisarniq, sans-serif;
+      font-size: 16px;
+      height: 46px;
+      line-height: 100%;
+      display: flex;
+      align-items: center;
+      color: var(--main-dark);
+    }
+  }
+
+  .error {
+    top: 0 !important;
+    display: block;
+    color: var(--main-red);
+    font-family: Ilisarniq, sans-serif;
+    font-size: 12px;
+    line-height: 150%;
+  }
+}
+
+.custom-datepicker-with-day {
+  max-width: 100%;
+  width: 100%;
+
+  &-select-fields {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 8px;
+
+    .select-field {
+      width: 33.3% !important;
+
+      &:not(:first-child) {
+        margin-top: 28px !important;
+      }
+    }
+
+    .select-field {
+      margin: 0;
+      min-width: 151px !important;
+
+      label {
+        min-width: 250px;
+      }
+    }
+
+    .select-field:first-child {
+      margin-right: 4px;
+    }
+
+    .select-field:nth-child(2) {
+      margin-left: 4px;
+      margin-right: 4px;
+    }
+
+    .select-field:nth-child(3) {
+      margin-left: 4px;
+    }
+  }
+
+  .error {
+    top: 0 !important;
+    display: block;
+    margin-top: 0 !important;
+    color: var(--main-red);
+    font-family: Ilisarniq, sans-serif;
+    font-size: 12px;
+    line-height: 150%;
+  }
+}
+
+@include breakpoint('small') {
+  .custom-datepicker-with-day-select-fields {
+    flex-direction: column !important;
+    margin: -10px 0;
+
+    .select-field {
+      margin: 10px 0 !important;
+    }
+  }
+}
+
+@media screen and (max-width: 1023px) and (min-width: 650px) {
+  .custom-datepicker {
+    width: 100%;
+
+    &-checkbox {
+      &-text {
+        font-size: 14px;
+      }
+    }
+
+    &-select-fields {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+      margin-top: 0px;
+      margin-bottom: 0px;
+
+      .select-field {
+        .Dropdown-root {
+          font-size: 12px;
+        }
+      }
+
+      .select-field:first-child {
+        margin-right: 0px;
+      }
+
+      .select-field:nth-child(2) {
+        margin-left: 0px;
+      }
+
+      .select-field:nth-child(3) {
+        margin-left: 0px;
+      }
+    }
+
+    &-present-section {
+      &-label {
+        font-size: 12px;
+        margin-top: 8px;
+      }
+    }
+  }
+
+  .custom-datepicker {
+    :not(.custom-datepicker-with-day-select-fields) .select-field:not(:first-child) {
+      & {
+        margin-top: 32px !important;
+      }
+    }
+
+    .custom-datepicker-with-day-select-fields .select-field {
+      &:first-child {
+        margin-right: 4px;
+      }
+
+      &:not(:first-child) {
+        margin-top: 28px !important;
+      }
+    }
+  }
+}

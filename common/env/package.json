@@ -1,0 +1,9 @@
+{
+  "name": "@equedi/env",
+  "description": "Env vars",
+  "version": "0.0.0",
+  "private": true,
+  "sideEffects": false,
+  "module": "./src/index.ts",
+  "main": "./src/index.ts"
+}

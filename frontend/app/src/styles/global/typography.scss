@@ -1,0 +1,135 @@
+@import 'src/styles/mixins/breakpoints.scss';
+
+h1,
+h2 {
+    font-family: Telegraf, sans-serif;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 40px;
+    letter-spacing: -0.04em;
+
+    @include breakpoint('small') {
+        font-size: 24px;
+        line-height: 28px;
+    }
+}
+
+h2 {
+    @include breakpoint('small') {
+        margin-left: 8px;
+    }
+}
+
+h3 {
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: bold !important;
+    color: var(--main-dark);
+    letter-spacing: -0.04em;
+
+    @include breakpoint('small') {
+        font-size: 20px;
+        line-height: 22px;
+    }
+}
+
+h4 {
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 600;
+}
+
+h5 {
+    font-family: Ilisarniq, sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 600 !important;
+    color: var(--main-dark);
+}
+
+.text-1 {
+    font-size: 18px;
+    line-height: 28px;
+    color: var(--dark-grey);
+    letter-spacing: normal;
+
+    @include breakpoint('small') {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+
+.text-2 {
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--main-dark);
+}
+
+.text-3 {
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--grey);
+}
+
+.text-4 {
+    font-size: 14px;
+    line-height: 20px;
+    font-style: italic;
+    color: var(--grey);
+}
+
+label.label {
+    display: block;
+    margin-bottom: 8px !important;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--main-dark);
+    transition: 0.15s color;
+
+    &.pristine {
+        color: var(--grey);
+    }
+
+    &.required::after {
+        content: '*';
+    }
+
+    & + input {
+        margin-top: -2px;
+    }
+}
+
+label.required::after {
+    content: '*';
+}
+
+.font-weight-semi-bold {
+    font-weight: 600;
+}
+
+@include breakpoint-up('medium') {
+    .font-weight-md-normal {
+        font-weight: normal !important;
+    }
+}
+
+.font-family-normal {
+    font-family: Ilisarniq, sans-serif;
+}
+
+a,
+a:hover {
+    color: var(--main-blue);
+}
+
+span.error {
+    position: relative;
+    top: -8px;
+    color: var(--main-red);
+    font-family: Ilisarniq, sans-serif;
+    font-size: 12px;
+    line-height: 150%;
+}

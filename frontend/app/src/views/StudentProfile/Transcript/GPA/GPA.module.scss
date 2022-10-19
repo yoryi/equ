@@ -1,0 +1,42 @@
+@import 'src/styles/mixins/breakpoints';
+
+:local(.title) {
+    @include breakpoint('small') {
+        padding-top: 20px;
+    }
+}
+
+:local(.ellipseContainer) {
+    position: absolute;
+    top: 55px;
+    bottom: 96px;
+    left: 157px;
+    right: 96px;
+    display: flex;
+    justify-content: space-between;
+    width: calc(100% - 248px);
+    height: 100%;
+
+    @include breakpoint('medium') {
+        left: 50px;
+        right: 17px;
+        width: calc(100% - 71px);
+    }
+
+    & > div {
+        display: flex;
+        flex-direction: column;
+        width: 1px;
+
+        & > div {
+            position: relative;
+
+            :global(.gpa-chart-ellipse-text) {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, calc(-50% - 4px));
+            }
+        }
+    }
+}

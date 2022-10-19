@@ -1,0 +1,24 @@
+:local(.label) {
+  align-self: flex-start;
+  font-family: Ilisarniq, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--grey);
+  transition: 0.15s color;
+
+  &:local(.highlighted) {
+    color: var(--main-dark);
+  }
+}
+
+:local(.error) {
+  color: var(--main-red);
+  font-family: Ilisarniq, sans-serif;
+  font-size: 12px;
+  line-height: 150%;
+  text-align: left;
+}

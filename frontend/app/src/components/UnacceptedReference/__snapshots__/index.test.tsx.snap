@@ -1,0 +1,224 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UnacceptedReference component should render and match the snapshot loading 1`] = `
+<div
+  class="container"
+>
+  <div
+    class="profileContainer"
+  >
+    <span
+      class="MuiSkeleton-root MuiSkeleton-circular MuiSkeleton-pulse rounded-circle css-fomgco-MuiSkeleton-root"
+      style="width: 64px; height: 64px;"
+    />
+    <div
+      class="detailsContainer d-flex flex-column mx-3"
+    >
+      <h3
+        class="name"
+      >
+        <span
+          class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse css-1n7gpw1-MuiSkeleton-root"
+          style="width: 200px;"
+        />
+      </h3>
+      <span
+        class="position"
+      >
+        <span
+          class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse css-1n7gpw1-MuiSkeleton-root"
+          style="width: 100px;"
+        />
+      </span>
+      <span
+        class="classes"
+      >
+        <span
+          class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse css-1n7gpw1-MuiSkeleton-root"
+          style="width: 125px;"
+        />
+      </span>
+    </div>
+  </div>
+  <div
+    class="buttonContainer"
+  >
+    <span
+      class="MuiSkeleton-root MuiSkeleton-circular MuiSkeleton-pulse css-fomgco-MuiSkeleton-root"
+      style="width: 40px; height: 40px;"
+    />
+  </div>
+</div>
+`;
+
+exports[`UnacceptedReference component should render and match the snapshot not loading 1`] = `
+<div
+  class="container"
+>
+  <div
+    class="profileContainer"
+  >
+    <div
+      class="container"
+    >
+      <span
+        class="initials"
+      >
+        AW
+      </span>
+    </div>
+    <div
+      class="detailsContainer d-flex flex-column mx-3"
+    >
+      <h3
+        class="name"
+      >
+        Aryanna Wilderman
+      </h3>
+      <span
+        class="position"
+      >
+        expedita
+      </span>
+      <span
+        class="classes"
+      >
+        Waters, Flatley and Jerde
+      </span>
+    </div>
+  </div>
+  <div
+    class="buttonContainer"
+  >
+    <button
+      class="primary-button d-none d-md-block default-button xs-button blue-button"
+    >
+      Review
+    </button>
+    <button
+      class="button blue d-block d-md-none"
+    >
+      <div
+        class="content loader exited"
+      >
+        <div
+          aria-busy="true"
+          class=""
+        >
+          <svg
+            aria-label="audio-loading"
+            fill="white"
+            height="24"
+            viewBox="0 0 120 30"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <circle
+              cx="15"
+              cy="15"
+              r="15"
+            >
+              <animate
+                attributeName="r"
+                begin="0s"
+                calcMode="linear"
+                dur="0.8s"
+                from="15"
+                repeatCount="indefinite"
+                to="15"
+                values="15;9;15"
+              />
+              <animate
+                attributeName="fillOpacity"
+                begin="0s"
+                calcMode="linear"
+                dur="0.8s"
+                from="1"
+                repeatCount="indefinite"
+                to="1"
+                values="1;.5;1"
+              />
+            </circle>
+            <circle
+              attributeName="fillOpacity"
+              cx="60"
+              cy="15"
+              from="1"
+              r="9"
+              to="0.3"
+            >
+              <animate
+                attributeName="r"
+                begin="0s"
+                calcMode="linear"
+                dur="0.8s"
+                from="9"
+                repeatCount="indefinite"
+                to="9"
+                values="9;15;9"
+              />
+              <animate
+                attributeName="fillOpacity"
+                begin="0s"
+                calcMode="linear"
+                dur="0.8s"
+                from="0.5"
+                repeatCount="indefinite"
+                to="0.5"
+                values=".5;1;.5"
+              />
+            </circle>
+            <circle
+              cx="105"
+              cy="15"
+              r="15"
+            >
+              <animate
+                attributeName="r"
+                begin="0s"
+                calcMode="linear"
+                dur="0.8s"
+                from="15"
+                repeatCount="indefinite"
+                to="15"
+                values="15;9;15"
+              />
+              <animate
+                attributeName="fillOpacity"
+                begin="0s"
+                calcMode="linear"
+                dur="0.8s"
+                from="1"
+                repeatCount="indefinite"
+                to="1"
+                values="1;.5;1"
+              />
+            </circle>
+          </svg>
+        </div>
+      </div>
+      <div
+        class="content entered"
+      >
+        <svg>
+          eye.svg
+        </svg>
+      </div>
+      <div
+        class="content success exited"
+      >
+        <svg>
+          check.svg
+        </svg>
+      </div>
+      <div
+        class="content exited"
+      >
+        <svg>
+          close-icon-white.svg
+        </svg>
+      </div>
+    </button>
+  </div>
+</div>
+`;

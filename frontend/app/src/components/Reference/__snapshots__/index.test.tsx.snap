@@ -1,0 +1,135 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Reference component should render and match the snapshot media not present 1`] = `
+<div
+  class="container"
+>
+  <div
+    class="profileContainer"
+  >
+    <div
+      class="avatar empty"
+    >
+      <span
+        class="initials"
+      >
+        MK
+      </span>
+    </div>
+    <div
+      class="detailsContainer"
+    >
+      <span
+        class="name"
+      >
+        Maritza Kertzmann
+      </span>
+      <span
+        class="position"
+      >
+        nam
+      </span>
+      <span
+        class="classes"
+      >
+        Brakus - Hagenes
+      </span>
+    </div>
+  </div>
+  <button
+    class="primary-button button default-button sm-button blue-button"
+    style="min-width: 140px;"
+  >
+    Read Reference
+  </button>
+</div>
+`;
+
+exports[`Reference component should render and match the snapshot media present 1`] = `
+<div
+  class="container"
+>
+  <div
+    class="profileContainer"
+  >
+    <img
+      alt=""
+      class="avatar"
+      src="https://mock.equedi.com/media/http://lorempixel.com/640/480?eqmt=n74ly0hcvu701ce68uuk7rqwe260qw2t"
+    />
+    <div
+      class="detailsContainer"
+    >
+      <span
+        class="name"
+      >
+        Aryanna Wilderman
+      </span>
+      <span
+        class="position"
+      >
+        doloremque
+      </span>
+      <span
+        class="classes"
+      >
+        Flatley, Jerde and Okuneva
+      </span>
+    </div>
+  </div>
+  <button
+    class="primary-button button default-button sm-button blue-button"
+    style="min-width: 140px;"
+  >
+    Read Reference
+  </button>
+</div>
+`;
+
+exports[`Reference component should render and match the snapshot with activity 1`] = `
+<div
+  class="container"
+>
+  <div
+    class="profileContainer"
+  >
+    <img
+      alt=""
+      class="avatar"
+      src="https://mock.equedi.com/media/http://lorempixel.com/640/480?eqmt=n74ly0hcvu701ce68uuk7rqwe260qw2t"
+    />
+    <div
+      class="detailsContainer"
+    >
+      <span
+        class="name"
+      >
+        Waldo Kulas
+      </span>
+      <span
+        class="position"
+      >
+        aliquam
+      </span>
+      <span
+        class="classes"
+      >
+        Toy - Bauch
+      </span>
+    </div>
+  </div>
+  <button
+    class="primary-button button default-button sm-button blue-button"
+    style="min-width: 140px;"
+  >
+    Read Reference
+  </button>
+  <a
+    class="seeRelevantExperience"
+    href="/extracurriculars#activity-619"
+    role="activityLink"
+  >
+    See Relevant Experience
+  </a>
+</div>
+`;

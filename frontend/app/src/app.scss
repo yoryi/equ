@@ -1,0 +1,65 @@
+@import './components/Button/button.scss';
+@import './components/Footer/footer.scss';
+@import './components/TextField/text-field.scss';
+@import './components/SelectField/select-field.scss';
+@import './components/Progress/progress.scss';
+@import './components/Card/card.scss';
+@import './components/Table/table.scss';
+@import './components/Modal/modal.scss';
+@import './components/TextEditor/text-editor.scss';
+@import './components/EmptyExperience/empty-experience.scss';
+@import './components/InfoBox/info-box.scss';
+@import './components/Checkbox/checkbox.scss';
+@import './components/UnsavedChangesModal/unsaved-changes-modal.scss';
+@import './components/DatePicker/datepicker.scss';
+@import './components/Filters/filters.scss';
+
+@import './routes/routes.scss';
+
+@import './views/LandingPage/landing-page.scss';
+@import './views/LandingPage/About/about.scss';
+@import './views/LandingPage/TermsOfUse/terms-of-use.scss';
+@import './views/LandingPage/PrivacyPolicy/privacy-policy.scss';
+@import './views/LandingPage/Contact/contact.scss';
+@import './views/Register/register.scss';
+@import './views/Login/login.scss';
+@import './views/ForgotPassword/forgot-password.scss';
+@import './views/ChangePassword/change-password.scss';
+@import './views/StudentProfile/student-profile.scss';
+@import './views/StudentProfile/Transcript/transcript.scss';
+@import './views/StudentProfile/Extracurricular/extracurricular.scss';
+@import './views/StudentProfile/Professional/professional.scss';
+@import './views/StudentProfile/Recognition/recognition.scss';
+@import './views/StudentProfile/Service/service.scss';
+@import './views/StudentProfile/Transcript/TranscriptAtGlance/transcript-at-glance.scss';
+@import './views/StudentProfile/Transcript/GPA/gpa.scss';
+@import './views/StudentProfile/Transcript/StandarizedTests/standarized-tests.scss';
+@import './views/StudentProfile/Transcript/AcademicReferences/AcademicReferences.module.scss';
+@import './views/StudentProfile/MissionStatement/mission-statement.scss';
+@import './views/Menu/menu.scss';
+@import './views/StudentProfile/BuildYourProfile/build-your-profile.scss';
+@import './views/StudentProfile/Settings/settings.scss';
+@import './views/StudentProfile/Settings/AccountSettings/account-settings.scss';
+@import './views/StudentProfile/Settings/ChangePassword/change-password.scss';
+@import './views/StudentProfile/Settings/Notifications/notifications.scss';
+@import './views/StudentProfile/Settings/PrivacyAndSecurity/privacy-and-security.scss';
+@import './views/Activity/activity.scss';
+@import './views/Activity/LogoUploader/logo-uploader.scss';
+@import './views/UniversityProfile/Spirit/spirit.scss';
+@import './views/Search/Filters//all-filters-modal.scss';
+@import './views/Activity/Attachments/attachments-uploader.scss';
+
+@import './src/styles/global/alert.scss';
+@import './src/styles/global/typography.scss';
+@import './src/styles/global/navbar.scss';
+
+body,
+.popover {
+    font-family: Ilisarniq, sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.outline-none:focus {
+    outline: none;
+}

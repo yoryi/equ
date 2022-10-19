@@ -1,0 +1,28 @@
+// https://code.visualstudio.com/docs/editor/userdefinedsnippets
+{
+  // "EXAMPLE DESCRIPTION": {
+  //   "prefix": "classes",
+  //   "body": "const classes = useStyles({$1})",
+  //   "scope": "typescript,typescriptreact"
+  // }
+  "Import - schema": {
+    "prefix": "ischema",
+    "body": "import * as s from \"@typeofweb/schema\""
+  },
+  "Import - data-schema": {
+    "prefix": "idataschema",
+    "body": "import * as schema from \"@equedi/data-schema\""
+  },
+  "Import - data-schema helpers": {
+    "prefix": "idataschema-helpers",
+    "body": "import * as helpers from \"@equedi/data-schema/src/_helpers\""
+  },
+  "Import - data-schema attribute": {
+    "prefix": "idataschema-attribute",
+    "body": "import * as attr from \"@equedi/data-schema/src/attribute\""
+  },
+  "Import - data-schema collection": {
+    "prefix": "idataschema-collection",
+    "body": "import * as collection from \"@equedi/data-schema/src/collection\""
+  }
+}

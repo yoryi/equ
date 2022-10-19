@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Badge component it should render and match the snapshot green 1`] = `
+<div
+  class="container green"
+>
+  et
+</div>
+`;
+
+exports[`Badge component it should render and match the snapshot red 1`] = `
+<div
+  class="container red"
+>
+  fugit
+</div>
+`;
+
+exports[`Badge component it should render and match the snapshot yellow 1`] = `
+<div
+  class="container yellow"
+>
+  quia
+</div>
+`;

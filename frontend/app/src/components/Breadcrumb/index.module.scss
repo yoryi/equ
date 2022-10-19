@@ -1,0 +1,22 @@
+:local(.container) {
+    margin: 0 -8px;
+
+    a {
+        color: var(--main-dark);
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    span {
+        margin: 0 8px;
+        font-size: 12px;
+        line-height: 18px;
+        color: var(--main-dark);
+
+        &:global(.active) {
+            color: var(--grey);
+        }
+    }
+}

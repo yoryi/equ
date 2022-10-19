@@ -1,0 +1,11 @@
+@import "src/styles/mixins/breakpoints";
+
+:local(.icon) {
+  width: 63.84px;
+  height: 63.84px;
+
+  @include breakpoint('small') {
+    width: 53.33px;
+    height: 53.33px;
+  }
+}

@@ -1,0 +1,84 @@
+@import "src/styles/mixins/breakpoints";
+
+:local(.card) {
+  padding: 16px;
+
+  @include breakpoint('small') {
+    padding: 4px;
+  }
+
+  :local(.container) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    :local(.badgeContainer) {
+      width: 100%;
+    }
+
+    :local(.profilePhoto) {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 64px;
+      height: 64px;
+      border-radius: 50%;
+      box-shadow: 0 2px 4px rgba(31, 36, 43, 0.12), 0 0 8px rgba(31, 36, 43, 0.08);
+
+      span {
+        font-family: Telegraf, sans-serif;
+        font-size: 24px;
+        line-height: 24px;
+        font-weight: bold;
+        color: black;
+      }
+    }
+
+    :local(.details) {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      :local(.name) {
+        margin-top: 12px;
+        margin-bottom: -4px;
+        font-size: 24px;
+        line-height: 32px;
+        font-weight: bold !important;
+        color: var(--main-dark);
+        letter-spacing: -0.04em;
+        text-align: center;
+
+        &:hover {
+          text-decoration: underline;
+        }
+
+        @include breakpoint('small') {
+          font-size: 20px;
+          line-height: 22px;
+          margin-bottom: 0;
+        }
+      }
+
+      span {
+        text-align: center;
+
+        @include breakpoint('small') {
+          font-size: 12px;
+          line-height: 18px;
+        }
+      }
+    }
+
+    :local(.button) {
+      margin-top: 32px;
+
+      @include breakpoint('small') {
+        min-width: auto !important;
+        padding: 8px 34px;
+        margin-bottom: 28px;
+      }
+    }
+  }
+}

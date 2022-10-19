@@ -1,0 +1,231 @@
+@import "src/styles/mixins/breakpoints";
+
+.activity-modal-body {
+    &-row {
+        .select-field {
+            width: 100% !important;
+            margin: 8px 0;
+        }
+        .text-field {
+            input {
+                margin-bottom: 0;
+            }
+        }
+        &-align-left {
+            justify-content: flex-start !important;
+            margin-top: 12px;
+        }
+    }
+
+    &-reference-name {
+        margin-right: 8px;
+    }
+}
+
+.activity-reference-admin {
+    height: 80%!important;
+}
+
+.journey-modal {
+    padding: 0px;
+    min-width: 960px !important;
+    .modal-content {
+        background: transparent;
+        .modal-body {
+            .journey-modal-title {
+                font-family: Telegraf, sans-serif;
+                font-weight: 900;
+                font-size: 44px;
+                line-height: 91%;
+                letter-spacing: -0.02em;
+                color: #fff;
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 12px;
+                div {
+                    display: flex;
+                    justify-content: space-between;
+                    min-width: 80px;
+                }
+                img {
+                    cursor: pointer;
+                }
+            }
+            & > div:nth-child(2) {
+                background: transparent !important;
+                img,
+                video {
+                    margin-top: 20px !important;
+                    border-radius: 16px !important;
+                    object-fit: cover;
+                    min-height: 600px;
+                    max-height: 600px;
+                }
+                > div:first-child {
+                    width: 100% !important;
+                    padding-left: 0px !important;
+                    padding-right: 0px !important;
+                    div {
+                        height: 4px !important;
+                    }
+                }
+                > div:nth-child(2) {
+                    div {
+                        top: unset !important;
+                        bottom: 12px !important;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 100%;
+                        margin-top: 32px;
+                        padding: 12px 40px;
+                        font-family: Ilisarniq, sans-serif;
+                        font-size: 16px;
+                        line-height: 100%;
+                        color: #fff;
+                        background: var(--main-dark);
+                        opacity: 0.9;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.journey-edit-modal {
+    &-title {
+        text-align: right;
+        margin-left: 16px;
+        margin-right: 16px;
+        img {
+            width: 12px;
+            height: 12px;
+            cursor: pointer;
+        }
+    }
+    &-item {
+        text-align: center;
+        margin: 12px 0;
+        font-family: Ilisarniq, sans-serif;
+        font-size: 16px;
+        line-height: 100%;
+        color: var(--main-dark);
+        cursor: pointer;
+        &-remove {
+            color: var(--main-red);
+        }
+        .upload-logo-container {
+            margin-right: 0px;
+            width: auto;
+            .dropzone {
+                width: 100%;
+            }
+        }
+    }
+}
+
+.text-area-journey-description {
+    margin-left: 16px;
+    margin-right: 16px;
+    width: auto !important;
+    textarea {
+        min-height: 150px !important;
+    }
+}
+
+.activity-main-info {
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+    img {
+        width: 64px;
+        height: 64px;
+        padding: 0px;
+        margin-right: 8px;
+        cursor: default;
+        box-shadow: 0px 0px 24px rgba(31, 36, 43, 0.06), 0px 4px 8px rgba(31, 36, 43, 0.08);
+
+        @include breakpoint('small') {
+            width: 48px;
+            height: 48px;
+        }
+    }
+    .activity-data-container {
+        .activity-title {
+            font-family: Ilisarniq, sans-serif;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 133%;
+            letter-spacing: -0.04em;
+            color: var(--main-dark);
+
+            @include breakpoint('small') {
+                font-size: 20px;
+            }
+        }
+        .activity-company,
+        .activity-date {
+            font-family: Ilisarniq, sans-serif;
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 24px;
+            font-weight: 400;
+            color: var(--grey);
+        }
+        
+        .activity-company {
+            margin-bottom: 4px;
+        }
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .journey-modal {
+        min-width: 100% !important;
+        height: 100vh !important;
+        background: #000;
+        opacity: 1;
+        margin: 0px;
+        .modal-content {
+            .modal-body {
+                padding-top: 40px;
+                .journey-modal-title {
+                    font-size: 32px;
+                    padding-left: 8px;
+
+                    div {
+                        min-width: 60px;
+                        margin-right: 20px;
+                    }
+                }
+                
+                & > div:nth-child(2) {
+                    height: 90% !important;
+                    img,
+                    video {
+                        min-height: 100%;
+                    }
+                    & > div:nth-child(2) {
+                        div {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            font-size: 12px;
+
+                            img {
+                                margin: 0 !important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .text-area-journey-description {
+        margin-left: 0px;
+        margin-right: 0px;
+        textarea {
+            min-height: 150px !important;
+        }
+    }
+}

@@ -1,0 +1,137 @@
+:local(.button) {
+  position: relative;
+  width: 40px;
+  min-width: 40px;
+  height: 40px;
+  border: 0;
+  border-radius: 50%;
+  transition: 0.15s all;
+  outline: none;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+
+  &:focus {
+    outline: none;
+  }
+
+  &:local(.disabled) {
+    background-color: var(--light-grey);
+    box-shadow: 0 2px 4px var(--lightGrayShadow), 0 0 8px var(--lightGrayShadow);
+  }
+
+  &:not(:local(.disabled)) {
+    &:local(.blue):not(:local(.secondary)) {
+      background-color: var(--main-blue);
+      box-shadow: 0 2px 4px var(--blueShadow), 0 0 8px var(--blueShadow);
+
+      :not(:local(.fill)) svg path {
+        stroke: white;
+      }
+
+      :local(.fill) svg path {
+        fill: white;
+      }
+    }
+
+    &:local(.blue):local(.secondary) {
+      background-color: var(--light-blue);
+
+      :not(:local(.fill)) svg path {
+        stroke: var(--main-blue);
+      }
+
+      :local(.fill) svg path {
+        fill: var(--main-blue);
+      }
+    }
+
+    &:local(.yellow):not(:local(.secondary)) {
+      background-color: var(--chromeYellow);
+      box-shadow: 0 2px 4px var(--yellowShadow), 0 0 8px var(--yellowShadow);
+
+      :not(:local(.fill)) svg path {
+        stroke: white;
+      }
+
+      :local(.fill) svg path {
+        fill: white;
+      }
+    }
+
+    &:local(.yellow):local(.secondary) {
+      background-color: var(--chromeYellow-20);
+
+      :not(:local(.fill)) svg path {
+        stroke: var(--chromeYellow);
+      }
+
+      :local(.fill) svg path {
+        fill: var(--chromeYellow);
+      }
+    }
+
+    &:local(.red):not(:local(.secondary)) {
+      background-color: var(--main-red);
+
+      :not(:local(.fill)) svg path {
+        stroke: white;
+      }
+
+      :local(.fill) svg path {
+        fill: white;
+      }
+    }
+
+    &:local(.red):local(.secondary) {
+      background-color: var(--light-red);
+
+      :not(:local(.globe)) svg path {
+        stroke: var(--main-red);
+      }
+
+      :local(.globe) svg path {
+        fill: var(--main-red);
+      }
+    }
+  }
+
+  :local(.content) {
+    position: absolute;
+    display: flex;
+    top: 50%;
+    left: 50%;
+    justify-content: center;
+    align-items: center;
+    transform: translate(-50%, -50%);
+    width: 40px;
+    height: 40px;
+    transition: opacity 300ms ease-in-out;
+    opacity: 0;
+
+    &:local(.entering),
+    &:local(.entered) {
+      opacity: 1;
+      transition-delay: 300ms;
+    }
+
+    &:local(.exiting),
+    &:local(.exited) {
+      opacity: 0;
+    }
+
+    &:local(.loader) > div {
+      width: 24px;
+      height: 24px;
+
+      & > svg {
+        margin-top: -9px;
+      }
+    }
+
+    &:local(.success) path {
+      stroke: #FFFFFF;
+    }
+  }
+}

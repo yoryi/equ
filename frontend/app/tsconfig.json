@@ -1,0 +1,17 @@
+{
+  "extends": "./node_modules/@10stars/config/tsconfig.json",
+  "include": [
+    "./src/**/*",
+    "./*.js",
+    "../brand-ui/types/*",
+    "../../common/*/types/*"
+  ],
+  "compilerOptions": {
+    "allowJs": true,
+    "jsx": "react-jsx",
+    "jsxImportSource": "@emotion/react",
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "noFallthroughCasesInSwitch": true
+  }
+}

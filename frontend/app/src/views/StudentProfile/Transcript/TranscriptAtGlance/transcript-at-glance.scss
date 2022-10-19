@@ -1,0 +1,167 @@
+.transcript-at-glance {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+    .card {
+        width: 309px;
+        height: 280px;
+        margin-bottom: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+        &-title {
+            margin-bottom: 2px;
+        }
+    }
+    &-grade-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 2px;
+        padding-bottom: 2px;
+    }
+    &-grade-mark {
+        font-family: Ilisarniq, sans-serif;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 111%;
+        color: var(--main-dark);
+        min-width: 24px;
+        text-align: left;
+        white-space: nowrap;
+    }
+    &-grade-subject {
+        font-family: Ilisarniq, sans-serif;
+        font-size: 16px;
+        line-height: 150%;
+        color: var(--main-dark);
+        max-width: 200px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    &-replace-button {
+        margin-top: 20px;
+        color: var(--main-blue);
+        font-family: Ilisarniq, sans-serif;
+        font-size: 16px;
+        line-height: 100%;
+        cursor: pointer;
+        outline: none;
+    }
+    .letter-grading-scale-modal-body {
+        margin-bottom: 60px;
+        > div {
+            width: fit-content;
+            min-width: 70%;
+            margin: auto;
+            border: 1px solid #000000;
+            border-radius: 10px !important;
+        }
+        table {
+            margin-bottom: 0px;
+            top: 0px;
+            th {
+                border: none !important;
+                font-size: 20px;
+                text-align: center;
+                padding: 6px 12px;
+                padding-bottom: 8px;
+            }
+            th:first-child {
+                border-right: 1px solid #000 !important;
+            }
+            tr {
+                td {
+                    padding: 0px;
+                    padding-left: 10px;
+                }
+                td:first-child {
+                    border-right: 1px solid #000;
+                    border-top: 1px solid #000;
+                    border-bottom: 1px solid #000;
+                }
+                td:nth-child(2),
+                td:nth-child(3) {
+                    border-top: 1px solid #000;
+                    border-bottom: 1px solid #000;
+                }
+            }
+            tr:last-child {
+                border-bottom: none !important;
+                td {
+                    border-bottom: none;
+                }
+            }
+            tbody {
+                border-top: 1px solid #000;
+            }
+        }
+    }
+
+    .modal-title {
+        font-size: 24px;
+        color: var(--main-dark);
+    }
+    .modal-subtitle {
+        margin-top: 6px;
+        max-width: 506px;
+        font-size: 18px;
+        &-link {
+            color: var(--main-blue);
+            cursor: pointer;
+        }
+    }
+    .empty-experience {
+        margin-top: 40px;
+    }
+}
+
+.upload-full-transcript-container {
+    outline: none;
+}
+
+@media screen and (max-width: 1023px) {
+    .transcript-at-glance {
+        justify-content: center;
+        &-grade-container {
+            padding-top: 0px;
+            padding-bottom: 0px;
+        }
+        &-grade-mark {
+            font-size: 16px;
+            font-weight: bold;
+        }
+        &-grade-subject {
+            font-size: 16px;
+        }
+        .card {
+            margin: auto;
+            margin-bottom: 10px !important;
+            height: 220px;
+            &-text {
+                margin-top: 10px !important;
+            }
+        }
+
+        .modal-title {
+            font-size: 20px;
+            color: var(--main-dark);
+        }
+        .modal-subtitle {
+            font-size: 16px;
+        }
+
+        .empty-experience {
+            margin-top: 30px;
+        }
+        .custom-datepicker {
+            width: 100%;
+
+            &-select-fields {
+                .select-field:nth-child(2) {
+                    margin-left: 10px;
+                }
+            }
+        }
+    }
+}

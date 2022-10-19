@@ -1,0 +1,155 @@
+@import "src/styles/mixins/container";
+@import "src/styles/mixins/breakpoints";
+
+:local(.filtersWrapper) {
+    :local(.filtersContainer),
+    :local(.filters),
+    :local(.sortContainer) {
+        display: flex;
+        flex-direction: row;
+        margin: 0 -2px;
+        justify-content: space-between;
+        align-items: center;
+
+        :local(.filterItem),
+        :local(.filterAppliedItem) {
+            padding: 14px 20px;
+            height: 40px;
+            background: #e5effa;
+            border-radius: 6px;
+            margin-left: 4px;
+            margin-right: 4px;
+            color: var(--main-blue);
+            font-family: Ilisarniq, sans-serif;
+            font-weight: bold;
+            font-size: 12px;
+            line-height: 100%;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            cursor: pointer;
+
+            @include breakpoint("small") {
+                margin: 8px;
+                width: 100%;
+                text-align: center;
+            }
+        }
+        :local(.filterAppliedItem) {
+            background: var(--main-blue);
+            color: #fff;
+        }
+        :local(.sortByButton) {
+            font-weight: bold;
+            font-size: 12px;
+            line-height: 100%;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: var(--main-dark);
+            display: flex;
+            align-items: center;
+            svg {
+                margin-right: 8px;
+            }
+        }
+        :local(.sortByItem),
+        :local(.sortByActiveItem) {
+            font-weight: normal;
+            margin: 20px;
+            font-size: 16px;
+            line-height: 100%;
+            color: var(--main-dark);
+            cursor: pointer;
+        }
+        :local(.sortByActiveItem) {
+            font-weight: bold;
+        }
+        :local(.filtersResult) {
+            font-style: italic;
+            font-size: 14px;
+            line-height: 143%;
+            text-align: right;
+            color: var(--grey);
+        }
+        :local(.saveSearchButton) {
+            background: var(--main-blue);
+            box-shadow: 0 0 24px rgba(0, 93, 204, 0.08), 0 4px 8px rgba(0, 93, 204, 0.16);
+            color: #fff;
+            outline: none;
+            font-weight: bold;
+            font-size: 12px;
+            border: none;
+            border-radius: 6px;
+            text-transform: uppercase;
+            padding: 6px 36px;
+            letter-spacing: 0.1em;
+            margin-right: 24px;
+            @include breakpoint("small") {
+                padding: 6px 12px;
+            }
+        }
+        @include breakpoint("small") {
+            flex-direction: column;
+            margin: -8px 0;
+        }
+    }
+    :local(.sortContainer) {
+        margin-top: 24px;
+        @include breakpoint("small") {
+            flex-direction: row;
+        }
+    }
+}
+
+:local(.allFilters) {
+    :local(.stickyHeader) {
+        position: sticky;
+        top: 20px;
+        z-index: 1000;
+        background-color: #fff;
+        @include breakpoint("large") {
+            top: 0px;
+            padding-top: 20px;
+        }
+        :local(.closeButton) {
+            text-align: center;
+            font-weight: bold;
+            font-size: 12px;
+            line-height: 100%;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: var(--grey);
+            cursor: pointer;
+        }
+        :local(.header) {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            :local(.clearButton) {
+                padding-right: 17px!important;
+                text-align: center;
+            }
+            :local(.headerText) {
+                font-weight: bold;
+                font-size: 24px;
+                line-height: 133%;
+                letter-spacing: -0.04em;
+                color: var(--main-dark);
+                @include breakpoint("small") {
+                    font-size: 14px;
+                }
+            }
+            :local(.headerButtons) {
+                display: flex;
+                align-items: center;
+
+                @include breakpoint("small") {
+                    text-align: right;
+                    button {
+                        padding: 8px;
+                        margin-top: 0px;
+                    }
+                }
+            }
+        }
+    }
+}

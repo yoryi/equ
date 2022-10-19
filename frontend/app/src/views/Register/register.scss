@@ -1,0 +1,653 @@
+@import "src/styles/mixins/breakpoints";
+
+.forgot-password,
+.change-password {
+  max-width: 330px;
+}
+
+.register {
+  max-width: 636px;
+  width: 100%;
+
+  form {
+    max-width: 310px;
+  }
+
+  .text-field {
+    width: 100%;
+    max-width: 310px;
+  }
+
+  @media(min-width: 1024px) {
+    .register-title-first-step-row,
+    .register-title-second-step-row,
+    .register-title-third-step-row {
+      .text-field {
+        &:not(:first-child) {
+          margin-left: 8px;
+        }
+
+        &:not(:last-child) {
+          margin-right: 8px;
+        }
+      }
+    }
+  }
+}
+
+.register,
+.login,
+.forgot-password,
+.change-password {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 80px;
+
+  &-title,
+  &-title-first-step,
+  &-title-second-step,
+  &-title-third-step,
+  &-title-fifth-step {
+    max-width: 450px;
+  }
+
+  &-title-fourth-step {
+    max-width: 700px;
+  }
+
+  &-title,
+  &-title-first-step,
+  &-title-second-step,
+  &-title-third-step,
+  &-title-fourth-step,
+  &-title-fifth-step {
+    margin: auto;
+    margin-bottom: 40px;
+    font-family: Telegraf, sans-serif;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 91%;
+    letter-spacing: -0.02em;
+    color: #1d1d1d;
+
+    &-row {
+      display: flex;
+      width: 100%;
+      max-width: 660px;
+
+      .highschool-label {
+        margin-bottom: 0;
+        font-family: Ilisarniq, sans-serif;
+        font-weight: bold;
+        font-size: 14px;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: var(--main-dark);
+        height: 28px;
+        text-align: left;
+      }
+
+      .pristine {
+        color: var(--grey);
+      }
+
+      &-highschool {
+        max-width: 310px;
+
+        * {
+          &:last-child {
+            border-bottom: none !important;
+          }
+        }
+      }
+
+      .highschool-error {
+        input::placeholder {
+          color: #c91c0d;
+        }
+      }
+
+      .select-field {
+        width: 100%;
+        max-width: 310px;
+        margin: 0;
+
+        @media(min-width: 1024px) {
+          &:not(:first-child) {
+            margin-left: 8px;
+          }
+
+          &:not(:last-child) {
+            margin-right: 8px;
+          }
+        }
+      }
+
+      @media(max-width: 1023px) {
+        .custom-datepicker {
+          margin-top: 24px;
+        }
+      }
+
+      &-single-item-wrapper {
+        width: 660px;
+
+        .custom-datepicker {
+          padding-left: 12px;
+          padding-right: 12px;
+        }
+      }
+
+      &-single-item {
+        width: 310px;
+        margin-left: 10px;
+        margin-top: 8px;
+        margin-bottom: 0px;
+
+        input {
+          width: 310px;
+        }
+      }
+    }
+  }
+
+  &-title-second-step-row {
+    &:nth-child(3) {
+      margin-top: 32px;
+    }
+
+    @media(max-width: 1023px) {
+      .select-field:not(:first-child) {
+        margin-top: 32px;
+      }
+    }
+  }
+
+  &-title-third-step {
+    &-row {
+      display: flex;
+      justify-content: center;
+      max-width: 1000px !important;
+      cursor: pointer;
+
+      &-interest-img {
+        filter: grayscale(100%);
+        opacity: 0.5;
+        transition: all 0.3s ease;
+      }
+
+      &-interest-img-active {
+        filter: none;
+        opacity: 1;
+        transition: all 0.3s ease;
+      }
+
+      &-interest-text {
+        font-family: Ilisarniq, sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 100%;
+        color: var(--dark-grey);
+        height: 28px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+
+  &-subtitle-second-step,
+  &-subtitle-third-step,
+  &-subtitle-fourth-step {
+    margin: auto;
+    margin-top: 8px;
+    font-family: Ilisarniq, sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 156%;
+    text-align: center;
+    color: var(--dark-grey);
+
+    @include breakpoint('small') {
+      font-size: 14px;
+      line-height: 20px;
+      text-align: left;
+    }
+  }
+
+  &-subtitle-third-step {
+    max-width: 430px;
+  }
+
+  &-subtitle-fourth-step {
+    max-width: 630px;
+  }
+
+  &-title-fourth-step {
+    margin-top: 70px;
+
+    &-row {
+      justify-content: center;
+
+      div {
+        position: relative;
+        padding: 10px 32px;
+
+        img {
+          cursor: pointer;
+        }
+      }
+
+      &-avatar {
+        filter: grayscale(100%);
+        opacity: 0.5;
+        transition: all 0.3s ease;
+      }
+
+      &-avatar-active {
+        filter: none;
+        opacity: 1;
+        transition: all 0.3s ease;
+      }
+
+      &-avatar-checked {
+        position: absolute;
+        top: -30px;
+        left: 70px;
+      }
+    }
+
+    &-middle-row {
+      justify-content: center;
+      width: 1000px;
+    }
+  }
+
+  &-subtitle-fourth-step {
+    max-width: 500px;
+  }
+
+  &-title-fifth-step {
+    margin-top: 70px;
+    max-width: 500px;
+
+    &-row {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      width: 900px;
+
+      div {
+        position: relative;
+        top: 0px;
+        padding: 4px 56px;
+        flex-basis: 50%;
+
+        img {
+          cursor: pointer;
+        }
+
+        text-align: center;
+      }
+
+      &-avatar {
+        filter: none;
+        opacity: 1;
+        transition: all 0.3s ease;
+      }
+
+      &-avatar-checked {
+        position: absolute;
+        top: -30px;
+        left: 70px;
+      }
+
+      &-title {
+        top: 0px !important;
+        padding: 6px 0px !important;
+        font-family: Ilisarniq, sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 100%;
+        color: var(--main-dark);
+      }
+
+      &-details {
+        padding: 0px !important;
+        font-family: Ilisarniq, sans-serif;
+        font-size: 12px;
+        line-height: 150%;
+        color: var(--grey);
+      }
+    }
+  }
+
+  .row-3 {
+    div {
+      flex-basis: 33% !important;
+    }
+  }
+
+  .row-4 {
+    div {
+      flex-basis: 25% !important;
+    }
+  }
+
+  &-submit {
+    width: 100%;
+    max-width: 310px;
+    margin-top: 16px;
+
+    &:first-child {
+      margin-top: 48px;
+    }
+
+    &-text {
+      margin: auto;
+      margin-top: 12px;
+      max-width: 250px;
+      font-family: Ilisarniq, sans-serif;
+      font-size: 12px;
+      line-height: 150%;
+      text-align: center;
+      color: var(--grey);
+    }
+  }
+
+  &-submit-container {
+    width: 100%;
+    max-width: 310px;
+    margin-top: 40px;
+  }
+
+  &-sign-up {
+    margin-top: 60px;
+    font-family: Ilisarniq, sans-serif;
+    font-size: 16px;
+    line-height: 100%;
+    text-align: center;
+    color: var(--main-dark);
+    cursor: pointer;
+  }
+
+  .university-register-title {
+    position: relative;
+    left: -35px;
+    white-space: nowrap;
+  }
+
+  .student-register-welcome {
+    &-container {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 60px;
+      margin-top: 40px;
+      width: 990px;
+    }
+
+    &-item {
+      margin-left: 20px;
+      margin-right: 20px;
+      width: 33.3%;
+      text-align: left;
+
+      &-title {
+        margin-top: 20px;
+        font-family: Ilisarniq, sans-serif;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 100%;
+        color: var(--main-dark);
+      }
+
+      &-description {
+        margin-top: 6px;
+        font-family: Ilisarniq, sans-serif;
+        font-size: 16px;
+        line-height: 150%;
+        color: var(--dark-grey);
+      }
+    }
+
+    &-title {
+      margin-bottom: 12px;
+    }
+
+    &-subtitle {
+      font-family: Ilisarniq, sans-serif;
+      font-size: 18px;
+      line-height: 156%;
+      text-align: center;
+      color: var(--dark-grey);
+      margin-bottom: 68px;
+    }
+  }
+
+  .university-basic-info-location {
+    margin-bottom: 0;
+    font-family: Ilisarniq, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--main-dark);
+    height: 21px;
+    text-align: left;
+  }
+
+  .pristine {
+    color: var(--grey);
+  }
+
+  .react-datepicker-popper {
+    z-index: 1001;
+  }
+
+  .error {
+    color: var(--main-red);
+    font-family: Ilisarniq, sans-serif;
+    font-size: 12px;
+    line-height: 150%;
+    text-align: left;
+  }
+}
+
+.register {
+  padding-top: 0px;
+
+  &-title {
+    padding-top: 80px;
+  }
+
+  &-back-button {
+    padding-top: 24px;
+    padding-left: 24px;
+    max-width: 900px;
+    width: 100%;
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: left;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+
+    div {
+      font-size: 16px;
+      position: relative;
+      margin-left: 8px;
+      top: -1px;
+    }
+  }
+}
+
+.date-picker {
+  cursor: pointer;
+}
+
+.react-datepicker-popper {
+  z-index: 4 !important;
+}
+
+@media screen and (max-width: 1023px) {
+  .register,
+  .login,
+  .forgot-password,
+  .change-password {
+    width: 310px;
+
+    &-title,
+    &-title-first-step,
+    &-title-second-step,
+    &-title-third-step,
+    &-title-fourth-step,
+    &-title-fifth-step {
+      margin-top: 40px;
+      font-weight: 900;
+      font-size: 32px;
+      text-align: left;
+      margin-left: 0px;
+
+      &-row {
+        display: block;
+        width: 310px;
+
+        &-single-item,
+        &-single-item-wrapper {
+          width: 310px;
+          margin-left: 0px;
+
+          .custom-datepicker {
+            padding: 0px;
+
+            &-select-fields {
+              margin-right: 0px;
+              max-width: 100% !important;
+
+              .select-field {
+                width: 100% !important;
+
+                label {
+                  font-size: 14px;
+                }
+              }
+            }
+          }
+        }
+
+        &-highschool {
+          margin-left: 0px;
+          margin-right: 0px;
+        }
+      }
+    }
+
+    &-title-third-step {
+      &-row {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        zoom: 1 !important;
+
+        &-interest-img,
+        &-interest-img-active {
+          width: 96px;
+          height: 96px;
+        }
+      }
+    }
+
+    &-title-fifth-step {
+      &-row {
+        display: flex;
+      }
+
+      &-row > div {
+        padding: 10px !important;
+      }
+    }
+
+    &-subtitle-third-step,
+    &-subtitle-fourth-step {
+      text-align: left;
+      font-size: 14px;
+    }
+
+    &-title-fourth-step {
+      &-row {
+        zoom: 0.7;
+        display: flex;
+        position: relative;
+        left: -280px;
+      }
+    }
+
+    &-title-fourth-step {
+      &-row {
+        left: 0px;
+      }
+    }
+
+    .fourth-step-submit {
+      margin-top: 20px;
+    }
+
+    .university-register-title {
+      position: initial;
+      white-space: pre-wrap;
+    }
+
+    .student-register-welcome {
+      &-container {
+        display: block;
+        width: 310px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+      }
+
+      &-item {
+        display: flex;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        text-align: left;
+        margin-left: 0px;
+        width: 100%;
+
+        &-container {
+          margin-left: 10px;
+        }
+
+        &-title {
+          margin-top: 10px;
+          font-family: Ilisarniq, sans-serif;
+          font-weight: bold;
+          font-size: 20px;
+          line-height: 110%;
+          color: var(--main-dark);
+        }
+
+        &-description {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .register {
+    &-title-third-step,
+    &-title-fourth-step {
+      &-row {
+        zoom: 0.39;
+      }
+    }
+  }
+}

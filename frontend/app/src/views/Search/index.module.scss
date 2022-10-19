@@ -1,0 +1,14 @@
+@import "src/styles/mixins/container";
+@import "src/styles/mixins/breakpoints";
+
+:local(.container) {
+    @include container;
+
+    section {
+        margin: 32px 0;
+
+        h1 {
+            margin-bottom: 24px;
+        }
+    }
+}

@@ -1,0 +1,327 @@
+.transcript-tab {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #f2f7fc;
+    position: relative;
+    padding-bottom: 120px;
+
+    .ap-courses,
+    .college-courses,
+    .sat-subject-tests,
+    .transcript-at-glance {
+        &-table-date {
+            font-family: Ilisarniq, sans-serif;
+            font-size: 16px !important;
+            line-height: 24px !important;
+            color: var(--grey);
+        }
+        .add-ap-course-modal-body,
+        .add-college-course-modal-body,
+        .add-sat-subjects-modal-body {
+            width: 100%;
+            max-width: 480px;
+            margin: auto;
+            margin-top: 40px;
+            margin-bottom: 12px;
+            &-header {
+                margin-top: 40px;
+                display: flex;
+                font-family: Ilisarniq, sans-serif;
+                font-weight: bold;
+                font-size: 14px;
+                line-height: 100%;
+                text-transform: uppercase;
+                color: var(--main-dark);
+                div:first-child {
+                    width: 50%;
+                    margin-left: 56px;
+                }
+                div:nth-child(2) {
+                    width: 50%;
+                    margin-left: 8px;
+                }
+                &-grade {
+                    width: 170px;
+                    display: flex;
+                    align-items: flex-end;
+                }
+            }
+            &-row {
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                font-family: Ilisarniq, sans-serif;
+                font-size: 16px;
+                line-height: 100%;
+                color: var(--main-dark);
+                &-text {
+                    margin-left: 32px;
+                    margin-top: 8px;
+                    width: 50%;
+                }
+                img {
+                    cursor: pointer;
+                }
+            }
+            .text-field {
+                width: 100%;
+                margin: 4px 0 0 0;
+                input {
+                    margin-bottom: 4px;
+                }
+            }
+            .text-field:nth-child(2),
+            .text-field:nth-child(3),
+            .select-field {
+                width: 100%;
+                margin: 10px 0;
+            }
+
+            .select-field:last-child {
+                margin-left: 8px;
+            }
+
+            .custom-datepicker {
+                width: 100%;
+                margin: 0 10px;
+            }
+        }
+
+        .college-course-modal-body,
+        .sat-subject-modal-body,
+        .ap-course-modal-body {
+            &-header {
+                margin-top: 40px;
+                display: flex;
+                font-family: Ilisarniq, sans-serif;
+                font-weight: bold;
+                font-size: 14px;
+                line-height: 100%;
+                text-transform: uppercase;
+                color: var(--main-dark);
+                div:first-child {
+                    width: 45%;
+                    margin-left: 50px;
+                }
+                div:nth-child(2) {
+                    width: 50%;
+                    margin-left: 0px;
+                }
+            }
+            &-row {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 12px;
+                padding-left: 40px !important;
+                padding-right: 40px !important;
+                div:nth-child(2),
+                div:nth-child(3) {
+                    margin-left: 10px;
+                    width: 50% !important;
+                    font-family: Ilisarniq, sans-serif;
+                    font-size: 16px;
+                    line-height: 100%;
+                    color: var(--main-dark);
+                }
+                img {
+                    cursor: pointer;
+                }
+            }
+            &-footer {
+                font-family: Ilisarniq, sans-serif;
+                font-size: 16px;
+                line-height: 100%;
+                color: var(--main-blue);
+                cursor: pointer;
+                margin-bottom: 40px;
+                margin-top: 10px;
+                margin-left: 40px;
+            }
+        }
+
+        table tr:last-child {
+            border-bottom: none !important;
+        }
+
+        .card {
+            &-title {
+                img {
+                    z-index: 1;
+                }
+            }
+        }
+    }
+
+    &-cover-img {
+        position: absolute;
+        right: 0px;
+        bottom: -60px;
+    }
+}
+
+.student-profile-tab-item {
+    width: 960px;
+    padding-top: 100px;
+    &-title {
+        font-family: Telegraf, sans-serif;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 91%;
+        color: var(--main-dark);
+        margin-bottom: 50px;
+        img {
+            cursor: pointer;
+            z-index: 1;
+        }
+        .question-mark-icon {
+            margin-left: 24px;
+        }
+        div {
+            z-index: 100;
+        }
+    }
+    &-popover {
+        position: relative;
+        display: flex;
+        .show.tooltip.px-2 {
+            top: -4px !important;
+            left: -260px !important;
+            background: #fff;
+            border: none;
+            width: 254px;
+            height: 57px;
+            border-radius: 12px;
+            box-shadow: 0px 0px 32px rgba(0, 29, 64, 0.04), 0px 4px 8px rgba(0, 29, 64, 0.04);
+            cursor: pointer;
+            span {
+                display: none;
+            }
+            .popover-body {
+                font-family: Ilisarniq, sans-serif;
+                font-size: 16px;
+                line-height: 100%;
+                width: 100%;
+                height: 100%;
+                text-align: center;
+                color: var(--main-dark);
+                white-space: nowrap;
+                padding: 0px;
+                div {
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .student-profile-tab-item {
+        width: 350px;
+        &-title {
+            font-size: 24px;
+            img {
+                width: 40px;
+                height: 40px;
+            }
+        }
+    }
+    .transcript-tab {
+        .ap-courses,
+        .college-courses,
+        .sat-subject-tests,
+        .transcript-at-glance {
+            .add-ap-course-modal-body,
+            .add-college-course-modal-body,
+            .add-sat-subjects-modal-body {
+                margin-top: 20px;
+                &-header {
+                    display: flex;
+                    align-items: flex-end;
+                    font-size: 12px;
+                }
+                .text-field,
+                .select-field {
+                    width: 100% !important;
+                    margin-top: 4px;
+                    margin-right: 0px;
+                    font-size: 14px;
+                    label {
+                        font-size: 12px;
+                    }
+                }
+            }
+
+            .college-course-modal-body,
+            .sat-subject-modal-body,
+            .ap-course-modal-body {
+                &-header {
+                    div:first-child {
+                        width: 45%;
+                        margin-left: 38px;
+                    }
+                }
+                &-row {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-top: 12px;
+                    padding-left: 8px !important;
+                    padding-right: 8px !important;
+                    div:nth-child(2),
+                    div:nth-child(3),
+                    .select-field {
+                        margin-left: 12px !important;
+                        font-size: 14px !important;
+                    }
+                    img {
+                        height: 18px;
+                    }
+                }
+                &-footer {
+                    font-size: 14px !important;
+                    margin-left: 8px;
+                }
+            }
+        }
+
+        &-cover-img {
+            transform: scale(0.5);
+            position: absolute;
+            right: -182px;
+            bottom: -280px;
+        }
+    }
+    .student-profile-tab-item {
+        padding-top: 40px;
+        &-title {
+            margin-bottom: 20px;
+            padding-top: 40px;
+        }
+        &-popover {
+            .show.tooltip.px-2 {
+                top: 50px !important;
+                left: -80px !important;
+                width: 160px;
+                height: 43px;
+                .popover-body {
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}
+
+.add-your-sat-score-modal .modal-footer:not(.unsaved-changes-modal-footer) {
+    display: flex;
+    flex-direction: column;
+}

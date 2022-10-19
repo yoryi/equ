@@ -1,0 +1,19 @@
+{
+  "workspaces": [
+    "*"
+  ],
+  "name": "common",
+  "version": "0.0.0",
+  "private": true,
+  "engines": {
+    "node": ">=14",
+    "npm": "please-use-yarn",
+    "yarn": ">=1.22"
+  },
+  "resolutions": {
+    "type-fest": "^1.0.0"
+  },
+  "dependencies": {
+    "@10stars/config": "^3.0.1"
+  }
+}

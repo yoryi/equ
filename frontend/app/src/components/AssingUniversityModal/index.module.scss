@@ -1,0 +1,13 @@
+:local(.row) {
+  width: 100%;
+  max-width: 635px;
+}
+
+:local(.checkboxContainer) {
+  width: 100%;
+  max-width: 705px;
+
+  :local(.label) {
+    color: var(--main-dark);
+  }
+}

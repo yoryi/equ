@@ -1,0 +1,18 @@
+{
+  "private": true,
+  "name": "@equedi/data-schema",
+  "version": "0.0.0",
+  "sideEffects": false,
+  "module": "./src/index.ts",
+  "main": "./src/index.ts",
+  "scripts": {
+    "test": "NODE_ENV=development node -r esbuild-register ../../common/tdd-unit-testing/src/index.ts",
+    "test:watch": "NODE_ENV=development nodemon -e ts,tsx -w ../../common/tdd-unit-testing/src -r esbuild-register ../../common/tdd-unit-testing/src/index.ts",
+    "test:commit": "DISABLE_WATCH=1 yarn test"
+  },
+  "dependencies": {
+    "@10stars/tdd-unit-testing": "link:tdd-unit-testing",
+    "@equedi/env": "link:env",
+    "@typeofweb/schema": "0.8.0-8"
+  }
+}

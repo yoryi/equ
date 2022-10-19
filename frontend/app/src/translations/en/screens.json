@@ -1,0 +1,732 @@
+{
+    "landingScreen": {
+        "title": "Equedi is sharing journeys of all students who dare to dream BIG",
+        "description": "Equedi creates a private space for scholars to highlight their personal journeys & connect with opportunities that match their goals.",
+        "secondTitle": "Scholastic portfolios that are designed to show your unique strengths",
+        "secondDescription": [
+            "It's more than a compilation of your academic achievements, it's your journey that deserves to be discovered.",
+            "Equedi is designed with your privacy in mind, control who sees what about you."
+        ],
+        "thirdTitle": "Equedi is constantly evolving to connect you to the best fit",
+        "thirdDescription": [
+            "Each campus has a special spirit that nurtures student growth.",
+            "Our algorithm identifies campuses that match your interests and experiences. Your dream school is waiting!"
+        ],
+        "highlightedTitle": "Let's build your academic profile now!",
+        "startBuilding": "Start building",
+        "comingSoon": "Coming Soon!",
+        "signUpForUpdates": "Sign up for updates around our launch.",
+        "getNotified": "Get notified",
+        "youHaveBeenAddedToMailingList": "You’ve been added to our mailing list. We’ll keep you updated with Equedi’s launch!"
+    },
+    "joinPilot": {
+        "title": "Request to Join Pilot",
+        "subtitle": "Equedi is currently running a pilot for current high school students. To join the pilot, where you can provide feedback and have the chance to win prizes, please fill out the form below and an Equedi team member will be in touch!"
+    },
+    "signUp": {
+        "student": {
+            "signUpFormScreen": {
+                "findTheBestUniversityMatch": "Find the Best University Match",
+                "signUpAsUniversity": "Sign up as university",
+                "pleaseCheckYourInbox": "Please check your inbox for an email to continue the sign up process."
+            },
+            "detailsScreen": {
+                "tellUsAboutYourself": "Tell us about Yourself",
+                "pleaseCompleteSignUpProcess": "Please complete sign up process."
+            },
+            "optionalDetailsScreen": {
+                "title": "Care to let us know a little bit more?",
+                "description": "These answers are always private and do not show up anywhere on your profile. They are used to better connect you with scholarship and program opportunities. If you feel uncomfortable answering, you can skip below."
+            },
+            "interestsScreen": {
+                "whatAreYouInvolvedWith": "What are you involved with?",
+                "whatAreYouInterestedIn": "What are you interested in?",
+                "description": "Each Equedi Ring is colored with your involvements to show your current mindset to the Equedi world. Academic is required.",
+                "descriptionDesktop": "Each EduRing is inscribed with your personal interests to show your current mindset to the Edufy world."
+            },
+            "avatarSelectionScreen": {
+                "title": "Your avatar, your privacy",
+                "description": "Pick an Avatar to keep your profile photo private until you choose to unveil yourself to universities, programs, and peers!"
+            },
+            "connectionsScreen": {
+                "connectWithScholars": "Connect with Scholars at Your Campus"
+            },
+            "welcomeScreen": {
+                "welcomeToEquedi": "Welcome to Equedi!",
+                "weAreExcited": "We’re excited to have you here. Please read about the Equedi platform below before jumping into your academic resume.",
+                "letsBegin": "Let's begin",
+                "privacyAndSecurity": "Privacy and Security",
+                "privacyAndSecurityText": "Your privacy is our priority. Your information and profile are private by default. You can adjust visibility settings per section for universities and students in the Settings.",
+                "personalizedPortfolios": "Personalized Portfolios",
+                "personalizedPortfoliosText": "Display your skills, activities, and achievements by adding experiences, awards, and references to your profile.",
+                "discoverAndFollowUniversities": "Discover & Follow Universities",
+                "discoverAndFollowUniversitiesText": "Find & follow the universities that are the best match for you, and create a list of your top dream schools."
+            }
+        },
+        "university": {
+            "signUpFormScreen": {
+                "requestUniversityProfile": "Request University Profile",
+                "signUpAsStudent": "Sign up as student"
+            },
+            "introScreen": {
+                "quickIntro": "Quick Intro",
+                "universityProfile": "University Profile",
+                "universityProfileText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                "verification": "Verification",
+                "verificationText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                "publishing": "Publishing",
+                "publishingText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            },
+            "basicInfoScreen": {
+                "basicInformation": "Basic Information",
+                "uploadSchoolLogo": "Upload School Logo",
+                "changeSchoolLogo": "Change School Logo"
+            }
+        }
+    },
+    "signIn": {
+        "signInScreen": {
+            "welcomeBack": "Welcome Back",
+            "forgotPassword": "Forgot password?"
+        },
+        "forgotPasswordScreen": {
+            "title": "Reset Password",
+            "resetPassword": "Reset password",
+            "checkOutInbox": "Check your inbox.",
+            "goToInbox": "Go to my inbox"
+        },
+        "forgotPassword": {
+            "forgotPasswordScreen": {
+                "renewPassword": "Reset Password"
+            },
+            "checkInboxScreen": {
+                "checkOutYourInbox": "Check your inbox.",
+                "goToMyInbox": "Go to my inbox",
+                "returnToLogin": "Return to Login"
+            },
+            "createNewPasswordScreen": {
+                "createNewPassword": "Create New Password",
+                "newPassword": "New password",
+                "repeatYourPassword": "Repeat your password",
+                "saveNewPassword": "Save new password"
+            }
+        }
+    },
+    "profile": {
+        "student": {
+            "profileScreen": {
+                "shareYourProfile": "Share your profile",
+                "missionStatement": "Mission Statement",
+                "addMissionStatement": "Add your mission statement below.",
+                "pleaseLimit": "Please limit to 40 words.",
+                "privacyAndSecurity": "Privacy and Security",
+                "personalizedPortfolios": "Personalized Portfolios",
+                "followUniversities": "Follow Universities",
+                "privacyAndSecurityText": "All information and data used to create your virtual portfolio is stored on secure servers. Your privacy is our priority.",
+                "personalizedPortfoliosText": "Polish every achievement and recognition by adding awards and experiences to your profile.",
+                "followUniversitiesText": "Show the world your interested and ready for a world class education by following your favorite universities.",
+                "buildYourProfile": "Build Your Profile",
+                "profileCompleted": "{{progress}} Profile Completed",
+                "buildYourProfileSteps": {
+                    "collegePreferenceSurvey": {
+                        "name": "Answer college preference survey",
+                        "description": "Required to see your match percentage with colleges."
+                    },
+                    "profilePhoto": {
+                        "name": "Add profile photo",
+                        "description": "Remember, it only shows to the groups you want."
+                    },
+                    "coverPhoto": {
+                        "name": "Add cover photo",
+                        "description": "Remember, it only shows to the groups you want."
+                    },
+                    "missionStatement": {
+                        "name": "Add mission statement",
+                        "description": "How do you plan to impact the world?"
+                    },
+                    "transcriptTab": {
+                        "name": "Fill out Transcript tab",
+                        "description": "Add your GPA by year, courses, standardized tests, and teacher references."
+                    },
+                    "extracurricularTab": {
+                        "name": "Fill out Extracurriculars tab",
+                        "description": "Add relevant work and internship experiences."
+                    },
+                    "professionalTab": {
+                        "name": "Fill out Professional tab",
+                        "description": "Add relevant work and internship experiences."
+                    },
+                    "serviceTab": {
+                        "name": "Fill out Service tab",
+                        "description": "Add relevant activism and volunteer work."
+                    },
+                    "recognitionTab": {
+                        "name": "Fill out Recognition tab",
+                        "description": "Add relevant scholarships, awards, and references."
+                    },
+                    "equediBeat": {
+                        "name": "Add Equedi Beat",
+                        "description": "Share the experiences that shape you. These only show to the groups you want."
+                    },
+                    "dreamSchools": {
+                        "name": "Create your Dream Schools list",
+                        "description": "Add five dream schools and follow unlimited colleges."
+                    },
+                    "campusScholars": {
+                        "name": "Connect with scholars on your campus",
+                        "description": "Find your friends and classmates from school."
+                    }
+                },
+                "showHiddenSteps": "(Show hidden steps)",
+                "hideHiddenSteps": "(Hide hidden steps)",
+                "hideStep": "(hide step)",
+                "showStep": "(show step)"
+            },
+            "transcriptScreen": {
+                "transcripts": "Transcript",
+                "gpaAtGlance": "GPA @ a Glance",
+                "gpaUpdatedSuccessfully": "GPA has been updated successfully.",
+                "standardizedTests": "Standardized Tests",
+                "transcriptAtGlance": "Transcript @ a Glance",
+                "testCourseCreated": "Course has been created successfully.",
+                "testCourseUpdated": "Course has been updated successfully.",
+                "gpaYear": "GPA {{year}}",
+                "overall": "Overall: {{count}}",
+                "apTests": "AP Tests",
+                "collegeCourses": "College Courses",
+                "satSubjectTests": "Subject Tests",
+                "academicReferences": "Academic References",
+                "apTestName": "AP Test Name",
+                "testName": "Test Name",
+                "addApTest": "Add AP Test",
+                "addMoreApTests": "+Add More AP Tests",
+                "addApTestSubtitle": "Add your AP test score (1-5) and the date to save scores to your Equedi profile.",
+                "addCourses": "Add Course",
+                "addSubjectTest": "Add Subject Test",
+                "yourApTests": "Your AP Tests",
+                "yourApTestsSubtitle": "Update your AP tests below to save them to your Equedi profile.",
+                "editApTest": "Edit AP Test",
+                "editApTestSubtitle": "Edit your AP test below to save them to your Equedi profile.",
+                "updateApTest": "Update AP Test",
+                "deleteApTest": "Delete AP Test",
+                "apTestCreated": "AP Test has been created successfully.",
+                "apTestUpdated": "AP Test has been updated successfully.",
+                "addCollegeCourse": "Add College Course",
+                "addCollegeCourseSubtitle": "Add your college courses and credits earned to save them to your Equedi profile.",
+                "courseName": "Course Name",
+                "collegeCourseName": "College Course Name",
+                "addYourCollegeCourses": "Add College Courses",
+                "addYourCollegeCoursesSubtitle": "Add your college courses, credits earned, and year taken to save scores to your Equedi profile.",
+                "yourCollegeCourses": "Your College Courses",
+                "yourCollegeCoursesSubtitle": "Update your college courses below to save them to your Equedi profile.",
+                "addMoreCollegeCourses": "+Add More College Courses",
+                "editYourCollegeCourses": "Edit College Course",
+                "editYourCollegeCoursesSubtitle": "Edit your college courses and credits earned to save them to your Equedi profile.",
+                "updateCollegeCourse": "Update College Course",
+                "deleteCollegeCourse": "Delete College Course",
+                "collegeCourseCreated": "College Course has been created successfully.",
+                "collegeCourseUpdated": "College Course has been updated successfully.",
+                "enterUnweightedGpa": "Enter your unweighted GPA below by year to update your GPA @ a Glance chart.",
+                "enterGpa": "Enter Your GPA",
+                "addSatSubjectTests": "Add SAT Subject Tests",
+                "addSatSubjectTestsSubtitle": "Add your College Board SAT Subject Test score (200-800) and the date to save scores to your Equedi profile.",
+                "editSatSubjectTest": "Edit SAT Subject Test",
+                "editSatSubjectTestSubtitle": "Edit your Subject Test below to save them to your Equedi profile.",
+                "updateSubjectTest": "Update Subject Test",
+                "deleteSubjectTest": "Delete Subject Test",
+                "yourSatSubjectTests": "Your SAT Subject Tests",
+                "yourSatSubjectTestsSubtitle": "Update your Subject Tests below to save them to your Equedi profile.",
+                "addMoreSubjectTests": "+Add More Subject Tests",
+                "subjectTestCreated": "Subject Test has been created successfully.",
+                "subjectTestUpdated": "Subject Test has been updated successfully.",
+                "addYourScore": "{{name}} Score",
+                "addYourScoreSubtitle": "Enter your {{name}} scores below to add them to your profile.",
+                "standardizedTestsSubtitle": "Choose the test you took and enter the date of the test.",
+                "standardizedTestCreated": "Standardized Test has been created successfully.",
+                "standardizedTestUpdated": "Standardized Test has been updated successfully.",
+                "deleteStandardizedTest": "Delete {{name}} test",
+                "addYourFinalGrade": "Add your final grade in a course using the Equedi grade scale.",
+                "clickHereToViewScale": "Click here to view the scale.",
+                "equediLetterGradingScale": "Equedi Letter Grading Scale",
+                "requestAcademicReference": "Request Academic Reference",
+                "enterEmailAddressBelow": "Enter email address below",
+                "requestReference": "Request reference",
+                "addExperience": "Add {{title}}",
+                "addExperienceDescription": "Click here to add any relevant {{title}} experience",
+                "addCourse": "+Add Course",
+                "uploadFullTranscript": "Upload Full Transcript",
+                "seeFullTranscript": "See Full Transcript",
+                "replaceTranscript": "Replace Transcript",
+                "composite": "Composite",
+                "math": "Math",
+                "science": "Science",
+                "english": "English",
+                "reading": "Reading",
+                "writingOptional": "Writing (optional)",
+                "enterYourScore": "Enter your score {{name}}",
+                "essayOptional": "ESSAY (OPTIONAL)",
+                "readingScore": "Reading score (0-8)",
+                "analysisScore": "Analysis score (0-8)",
+                "writingScore": "Writing score (0-8)",
+                "ebrw": "Evidence-based reading \n& writing (EBRW)",
+                "writing": "Writing",
+                "electives": "Electives",
+                "socialStudies": "Social Studies",
+                "selectTest": "Select test",
+                "test": "Test",
+                "addTest": "Add {{title}} Course",
+                "editTest": "Edit {{title}} Course",
+                "updateCourse": "Update Course",
+                "deleteCourse": "Delete Course",
+                "courses": "{{title}} Courses",
+                "contentGpa": "Content GPA: {{count}}",
+                "addXCourse": "Add {{title}} Course",
+                "clickHereToAddAnyCourse": "Click here to add any {{title}} that you have taken",
+                "equediLetterGradingScaleSubtitle": "Find your Equedi letter grade by using your final grade for a class and the conversion table below. If you aren’t able to convert your transcript, please contact us at help@equedi.com."
+            },
+            "extracurricularsScreen": {
+                "extracurriculars": "Extracurriculars",
+                "academicAndArts": "Academic + Arts",
+                "sportsAndSpirit": "Sports + Spirit",
+                "hobbies": "Hobbies",
+                "whereDoYouShine": "Where do you shine outside the classroom?",
+                "requestReference": "Request Reference",
+                "reviewReference": "Review Reference"
+            },
+            "professionalScreen": {
+                "professional": "Professional",
+                "employment": "Employment",
+                "internship": "Internship",
+                "whatIndustry": "What industry do you want to impact?"
+            },
+            "serviceScreen": {
+                "service": "Service",
+                "volunteerWork": "Volunteer Work",
+                "activism": "Activism",
+                "whatInspiresYou": "What inspires you to make a change?"
+            },
+            "recognitionScreen": {
+                "recognition": "Recognition",
+                "academicAwards": "Academic Awards",
+                "extracurricularsAwards": "Extracurricular Awards",
+                "scholarshipAwards": "Scholarship Awards",
+                "references": "References",
+                "academicAwardsSubtitle": "Add your academic awards along with the awarding organization and date earned to save scores to your Equedi profile",
+                "hardWorkPaysOff": "Hard work pays off, give yourself a shout out!",
+                "awardName": "Award name",
+                "awardCreated": "Award has been created successfully.",
+                "awardUpdated": "Award has been updated successfully.",
+                "addAward": "Add {{name, title}} Award",
+                "addAwardToYourEquediProfile": "Add {{name, enIndefiniteArticle, lowerCase}} award below to save it to your Equedi profile.",
+                "editAward": "Edit {{name, title}} Award",
+                "editAwardToYourEquediProfile": "Edit {{name, enIndefiniteArticle, lowerCase}} award below to save it to your Equedi profile.",
+                "yourAwards": "Your {{name, title}} Awards",
+                "updateYourAcademicAwardsToSaveThemYourProfile": "Update your {{name, lowerCase}} awards below to save them to your Equedi profile.",
+                "awardTypes": {
+                    "academic": "Academic",
+                    "extracurriculars": "Extracurriculars",
+                    "scholarship": "Scholarship"
+                },
+                "addAwards": "Add Award",
+                "award": "Award",
+                "updateAward": "Update Award",
+                "deleteAward": "Delete Award"
+            },
+            "missionStatementScreen": {
+                "firstParagraph": "What character trait do you feel contributes to your personal identity the most? When do you find yourself exhibiting this trait the most?",
+                "secondParagraph": "You are the only you, what is/would be your super power? How would you use it to be a member of an elite team?",
+                "thirdParagraph": "Times are hard for a lot of people around the globe. When have you had to persevere through a difficult time in your past, and how do you plan to make a positive impact on your community?",
+                "yourBeatText": "What beat does your Equity march to? Open up to potential scholarship providers and campuses that want students with your story!"
+            }
+        },
+        "university": {
+            "profileScreen": {
+                "overview": "Overview",
+                "spirit": "Spirit",
+                "updates": "Updates",
+                "followSchool": "Follow school",
+                "claimSchool": "Claim school",
+                "claimSchoolTitle": "Report a Problem/Claim This Profile",
+                "claimSchoolMessage": "In order to report a problem with the data on this university page or claim this profile to make changes, please email us at universitysupport@equedi.com.",
+                "visitWebsite": "Visit website"
+            },
+            "overviewScreen": {
+                "overview": "Overview",
+                "aboutSchool": "About School",
+                "schoolSize": "School size",
+                "institutionType": "Institution Type",
+                "mainStudentBody": "Main student body",
+                "onCampusHousing": "On-campus housing",
+                "campusSetting": "Campus setting",
+                "location": "Location",
+                "admissions": "Admissions",
+                "admissionStats": "Admission Stats",
+                "applications": "Applications",
+                "accepted": "Accepted",
+                "enrolled": "Enrolled",
+                "freshmanClassSize": "Freshman Class Size",
+                "calculateYourNetPrice": "Calculate Your Net Price",
+                "acceptanceRate": "Acceptance Rate",
+                "graduationRate": "Graduation Rate",
+                "testScoresAndGpa": "Test Scores & GPA",
+                "averageGPAUnweighted": "Average GPA (Unweighted)",
+                "demographics": "Demographics",
+                "studentBody": "Student Body",
+                "male": "Male",
+                "female": "Female",
+                "fromStates": "From States",
+                "outOfStates": "Out of the States",
+                "nonResidents": "Non residents",
+                "studentsOfColor": "Students of color",
+                "internationalStudents": "International students",
+                "socioEconomicDiversity": "Socio-Economic Diversity",
+                "raceAndEthnicity": "Race and Ethnicity",
+                "white": "White",
+                "nonResidentAlien": "Non-resident alien",
+                "hispanic": "Hispanic",
+                "asian": "Asian",
+                "black": "Black",
+                "twoOrMoreRaces": "Two or more races",
+                "unknown": "Unknown",
+                "nativeHawaiian": "Native hawaiian or Pacific Islander",
+                "americanIndian": "American Indian or Alaska Native",
+                "editDataModalTitle": "Edit Overview Data",
+                "editDataModalMessage": "If you would like to edit your school’s overview data, please email universitysupport@equedi.com along with the field you’d like corrected. We’ll make sure any incorrect data is updated quickly!",
+                "reportProblem": "University data provided by Peterson’s LLC  (<0>report problem or claim page</0>)"
+            },
+            "spiritScreen": {
+                "spirit": "Spirit",
+                "shared": "Shared"
+            }
+        }
+    },
+    "yourBeatScreen": {
+        "yourBeat": "Your <0/> Beat",
+        "yourBeatUpdated": "Your Beat has been updated successfully!"
+    },
+    "yourSchools": {
+        "dreamSchools": "Dream Schools",
+        "followedSchools": "Followed Schools",
+        "recommendedSchools": "Recommended Schools",
+        "addToDreamSchools": "Add to Dream Schools",
+        "removeFromDreamSchools": "Remove from Dream Schools",
+        "dreamSchoolsAdded": "{{count}} out of {{max}} dream schools added"
+    },
+    "settings": {
+        "settings": "Settings",
+        "accountSettings": {
+            "accountSettings": "Account Settings",
+            "pageAdministrator": "Page Administrator",
+            "pleaseEmailToReassignPageAdministrator": "Please email help@equedi.com to reassign your page administrator or update contact information.",
+            "accountSettingsSaved": "Account Settings have been saved successfully."
+        },
+        "changePassword": {
+            "changePassword": "Change Password"
+        },
+        "notifications": {
+            "notifications": "Notifications",
+            "emailNotifications": "Email Notifications",
+            "referenceNotifications": "Reference Notifications",
+            "receiveAnEmailWhenYouReceiveReference": "Receive an email when you receive a reference to review.",
+            "accountActivity": "Account Activity",
+            "receiveEmailWhenChangesAreMade": "Receive an email when changes are made to your account.",
+            "followNotifications": "Follow Notifications",
+            "receiveEmailWhenUniversityRequestFollow": "Receive an email when a university requests to follow you.",
+            "followActivity": "Follow Activity",
+            "getNotificationsWhenUsersAcceptFollowRequest": "Get notifications when users accept your follow request",
+            "followerDigest": "Follower Digest",
+            "monthlyNewsletterFeaturingNews": "A monthly newsletter featuring news around new followers",
+            "notificationsSettingsSaved": "Notifications settings have been saved."
+        },
+        "studentProfileSettingsScreen": {
+            "accountSettings": "Account Settings",
+            "changeAvatar": "Change avatar",
+            "diversity": "Diversity",
+            "accountChanges": "Account Changes",
+            "pleaseEmailEquedi": "Please email help@equedi.com to update your email address",
+            "closeAccount": "Close Account",
+            "deleteYourAccount": "Delete your account and account data",
+            "deleteAccount": "Delete Account",
+            "weAreSorryToSeeYouGo": "{{firstName}} we’re sorry to see you go!",
+            "yourAvatarYourPrivacy": "Your Avatar, Your Privacy",
+            "pickAnAvatarToKeepProfilePrivate": "Pick an Avatar to keep your profile photo private until you choose to unveil yourself to universities, programs, and peers!",
+            "deleteAccountText": "Your account will be fully deleted after 30 days. To stop the account deletion process, log back in using your username and password. If you have any questions about the deletion or any feedback, please email us at help@equedi.com."
+        }
+    },
+    "changePasswordScreen": {
+        "changePassword": "Change Password"
+    },
+    "privacyAndSecurityScreen": {
+        "privacyAndSecurity": "Privacy and Security",
+        "privacyAndSecuritySubtitle": "Control your profile’s visibility for Equedi users below. Please note: when you accept a connection or follow request, your page becomes visible to other users unless the hidden option is used. Your academic page cannot be hidden from schools on your followed school list.",
+        "accountActivity": "Account Activity",
+        "accountActivityDescription": "When you check the \"Public Account\" box, all information on your profile is shared with all members of the Equedi platform both students and institutions. For more specific page content privacy, please use the features above.",
+        "nameAndPhoto": "Name and Photo",
+        "yourBeat": "Your beat",
+        "transcript": "Transcript",
+        "extracurriculars": "Extracurriculars",
+        "professional": "Professional",
+        "service": "Service",
+        "recognition": "Recognition",
+        "toAll": "{{visibility}} to all",
+        "universitiesVisibility": "Universities - {{visibility}}",
+        "studentsVisibility": "Students - {{visibility}}",
+        "universities": "Universities",
+        "students": "Students",
+        "publicTab": "Public tab",
+        "publicTabDescription": "Checking this box will make the tab’s content public on the web.",
+        "privacyAndSecuritySettingsSaved": "Privacy and Security settings have been saved successfully.",
+        "whoCanViewYourFullName": "Who can view your full name, profile photo, and banner photo?",
+        "whoCanViewYourBeatPage": "Who can view your Beat page?",
+        "whoCanViewYourTranscriptTab": "Who can view your Transcript tab?",
+        "whoCanViewYourExtracurricularsTab": "Who can view your Extracurriculars tab?",
+        "whoCanViewYourProfessionalTab": "Who can view your Professional tab?",
+        "whoCanViewYourServiceTab": "Who can view your Service tab?",
+        "whoCanViewYourRecognitionTab": "Who can view your Recognition tab?",
+        "makeMyAccountPublic": "Make my account public",
+        "makeMyAccountPublicText": "When you check the \"make my account public\" box, all settings above are overridden and your profile is shared online. For more granular page content privacy, please use the features above."
+    },
+    "changeTabsOrderScreen": {
+        "changeTabsOrder": "Change Tabs Order"
+    },
+    "surveysScreen": {
+        "studentSurveys": "Student Surveys",
+        "takeSurvey": "Take Survey",
+        "updateAnswers": "Update Answers"
+    },
+    "surveyScreen": {
+        "previousQuestion": "Previous question",
+        "nextQuestion": "Next question",
+        "completeSurvey": "Complete survey",
+        "thankYouForCompletingCollegeInterestsSurvey": "Thank you for completing the college interests survey! You can update your answers at any time by returning to the surveys page."
+    },
+    "searchScreen": {
+        "seeYourFiltersBelow": "See your filters below",
+        "clear": "Clear",
+        "clearAll": "Clear All",
+        "apply": "Apply",
+        "matchLevel": "Match Level",
+        "location": "Location",
+        "locationBased": "Location Based",
+        "localeType": "Locale Type",
+        "regions": "Regions",
+        "studentBodySize": "Student Body Size",
+        "studentBodyType": "Student Body Type",
+        "schoolType": "School Type",
+        "degree": "Degree",
+        "athleticDivision": "Athletic Division",
+        "averageSatAbove": "Average SAT Above...",
+        "ebrw": "EBRW",
+        "essay": "Essay",
+        "apTestsTaken": "AP tests taken",
+        "subjectTestsTaken": "Subject tests taken",
+        "collegeCoursesTaken": "College courses taken",
+        "gpaOverall": "GPA (overall)",
+        "gpaContentGpa": "GPA (content GPA)",
+        "composite": "Composite",
+        "english": "English",
+        "math": "Math",
+        "science": "Science",
+        "social": "Social",
+        "electives": "Electives",
+        "activities": "Activities",
+        "followingYou": "Following You",
+        "studentsThatHaveYouAsADreamSchool": "Students that have you as a dream school",
+        "activityType": "Activity Type",
+        "incomingCollegeFreshmen": "Incoming college freshmen",
+        "risingSeniors": "Rising H.S. seniors",
+        "basedOnSchoolClassYear": "Based on school class year (graduating this school year)",
+        "basedOnSchoolClassYearNext": "Based on school class year (graduating next school year)",
+        "filtersApplied": " filters applied",
+        "allFilters": "All filters...",
+        "sortBy": "Sort By",
+        "matchHighestToLowest": "Match % (Highest to Lowest)",
+        "alphabetical": "Alphabetical (A-Z)",
+        "saveSearch": "Save Search",
+        "results": "Results"
+    },
+    "menuScreen": {
+        "feed": "Feed",
+        "yourSchools": "Your Schools",
+        "connections": "Connections",
+        "studentSurveys": "Student Surveys",
+        "accountSettings": "Account Settings",
+        "changePassword": "Change Password",
+        "privacyAndSecurity": "Privacy and Security",
+        "changeTabsOrder": "Change Tab Order",
+        "notifications": "Notifications",
+        "notificationSettings": "Notification settings",
+        "lists": "Lists",
+        "followedStudents": "Followed Students",
+        "university": "University",
+        "signOut": "Sign out"
+    },
+    "addReferenceScreen": {
+        "title": "{{reference}} for {{- name}}",
+        "academicReferenceDescription": "Fill out the fields below to submit an academic reference for {{- name}}. If you don’t add a profile image, it will display your initials. Please separate classes taught by a semicolon or comma. Save your progress by clicking save below and revisiting the link in your email. Once the form is submitted, it cannot be edited.",
+        "activityReferenceDescription": "Fill out the fields below to submit an activity reference for {{- name}}. If you don’t add a profile image, it will display your initials. The activity name comes directly from {{firstName}}’s Equedi profile and cannot be edited. Save your progress by clicking save below and revisiting the link in your email. Once the form is submitted, it cannot be edited.",
+        "classesTaught": "Class(es) taught",
+        "activityName": "Activity Name",
+        "classesTaughtPlaceholder": "Class One; Class Two",
+        "position": "Position",
+        "teacherPositionPlaceholder": "Position (e.g. STEM teacher)",
+        "submitReference": "Submit Reference",
+        "saveProgress": "Save Progress",
+        "readyToSubmit": "Ready to submit?",
+        "confirmationMessage": {
+            "academic": "By clicking submit below, you confirm that you are {{- name}}'s teacher and/or academic supervisor for the class(es) entered. Once you submit the reference, you can no longer edit it.",
+            "activity": "By clicking submit below, you confirm that you are {{- name}}'s supervisor for the entered activity. Once you submit the reference, you can no longer edit it."
+        },
+        "thankYouForSubmitting": "Thank you for submitting!",
+        "yourReferenceHasBeenSent": "Your reference has been sent to {{- name}}. You can close the window at any time.",
+        "closeWindow": "Close window"
+    },
+    "notificationsScreen": {
+        "followRequests": "Follow Requests",
+        "referencesToReview": "References to Review",
+        "notifications": "Notifications",
+        "allowAll": "Allow All",
+        "clearAll": "Clear All",
+        "review": "Review",
+        "referenceAddedToProfile": "Reference has been added to your profile successfully.",
+        "referenceDeletedSuccessfully": "Reference has been deleted successfully.",
+        "noPendingFollowRequests": "You have no pending follow requests.",
+        "noPendingReferences": "You have no pending references to review.",
+        "noNotifications": "You have not any notifications yet."
+    },
+    "followedStudentsScreen": {
+        "followedStudents": "Followed Students"
+    },
+    "listsScreen": {
+        "equediLists": "Equedi Lists",
+        "savedSearches": "Saved Searches"
+    },
+    "admin": {
+        "studentUserList": "Student User List",
+        "universities": "Universities",
+        "postReview": "Post Review"
+    },
+    "studentUserList": {
+        "studentUsers": "Student Users",
+        "name": "Name",
+        "email": "Email",
+        "highschool": "High School",
+        "profileCompletion": "Profile Completion %",
+        "numberOfLogins": "# of Logins",
+        "highschools": "High Schools",
+        "students": "Students",
+        "averageCompletion": "Average Completion"
+    },
+    "completionTracker": {
+        "completionTracker": "Completion Tracker",
+        "taskName": "Task Name",
+        "completed": "Completed?"
+    },
+    "studentOverview": {
+        "viewCompletion": "View Completion",
+        "viewProfile": "View Profile",
+        "emailStudent": "Email Student",
+        "resetPassword": "Reset Password",
+        "requestToChangePasswordSent": "Request to reset password has been sent",
+        "lockProfile": "Lock Profile",
+        "unlockProfile": "Unlock Profile",
+        "deleteAccount": "Delete Account",
+        "personalInformation": "Personal Information",
+        "highSchool": "High School",
+        "emailNotifications": "Email Notifications",
+        "browserNotifications": "Browser Notifications",
+        "privacyAndSecurity": "Privacy and Security",
+        "publicAccountAuthorization": "Public Account Authorization",
+        "areYouSureToDelete": "Are you sure you want to delete this account?",
+        "changesHasBeenSaved": "Changes has been saved"
+    },
+    "universities": {
+        "universitiesAndColleges": "Universities & Colleges",
+        "universities": "Universities",
+        "claimed": "Claimed",
+        "contacted": "Contacted",
+        "universityName": "University Name",
+        "isClaimed": "Claimed?",
+        "contactEmail": "Contact Email",
+        "unclaimed": "Unclaimed"
+    },
+    "university": {
+        "backToUniversityList": "Back to university list",
+        "assignProfile": "Assign Profile",
+        "unassignProfile": "Unassign Profile",
+        "viewProfile": "View Profile",
+        "emailUniversity": "Email University",
+        "reviewPosts": "Review Posts",
+        "hideUniversity": "Hide University",
+        "showUniversity": "Show University",
+        "resetPassword": "Reset password",
+        "universityContact": "University Contact",
+        "profileClaimedBy": "Profile Claimed By",
+        "overview": "Overview",
+        "admissions": "Admissions",
+        "demographics": "Demographics",
+        "assignUniversity": "Assign {{university.name}}",
+        "assignUniversityDescription": "Fill out the fields below to assign the university to a user profile. Clicking Submit & Email will send a welcome email that allows the user to set a password.",
+        "assignUniversityConfirmation": "I affirm that the user above is authorized to make changes to {{university.name}}’s page. The user has provided me with necessary documentation to grant account ownership.",
+        "unassignUniversityConfirmation": "Are you sure you want to unassign {{university.name}}'s profile?",
+        "submitAndEmail": "Submit & Email",
+        "unassign": "Unassign",
+        "profileHasBeenSuccessfullyAssignedToUniversity": "Profile has been successfully assigned to the university.",
+        "universityAdministratorUpdatedSuccessfully": "University administrator has been updated successfully.",
+        "profileHasBeenSuccessfullyUnassigned": "Profile has been successfully unassigned.",
+        "passwordResetSuccessfullyRequested": "An email with a password reset link has been successfully sent."
+    },
+    "postReview": {
+        "postReview": "Post Review",
+        "posts": "Posts",
+        "reviewed": "Reviewed",
+        "poster": "Poster",
+        "postType": "Post Type",
+        "deleteAndEmail": "Delete & Email",
+        "delete": "Delete",
+        "whyIsThisBeingDeleted": "Why is this being deleted?",
+        "selectAnOptionBelow": "Select an option below. If you’d like to add a personal note, please type it in the box before submitting.",
+        "reasonForDeletion": "Reason for deletion",
+        "selectReason": "Select reason...",
+        "postHasBeenDeleted": "Post has been deleted",
+        "email": "Email",
+        "suggestEdit": "Suggest Edit",
+        "sendEmail": "Send Email",
+        "message": "Message",
+        "personalMessage": "Personal Message",
+        "emailHasBeenSent": "Email has been sent",
+        "approved": "Approved",
+        "notReviewed": "Not reviewed",
+        "minNumberOfCharacters": "Min number of characters is {{numberOfCharacters}}"
+    },
+    "termsOfUse": {
+        "home": "Home",
+        "termsOfUse": "Terms of Use",
+        "content": "<title>Terms of Use</title><subtitle>Last Updated: September 23, 2020</subtitle><term><term-text>Equedi LLC (“Company,” “we,” “us,” or “our”) provides you access to our services (the “Services”) we provide through the website located at www.equedi.com (“Site”), subject to the following terms and conditions of service (the “Authorized User Terms of Service” or “Terms”), which may be updated by us from time to time without notice to you.</term-text><term-text>BY USING OUR SERVICES, YOU ACKNOWLEDGE THAT YOU AND HAVE READ, UNDERSTOOD, AND AGREE TO BE LEGALLY BOUND BY THESE AUTHORIZED USER TERMS OF SERVICE AND OUR PRIVACY POLICY, LOCATED AT www.equedi.com/privacy policy (THE “PRIVACY POLICY”), WHICH IS HEREBY INCORPORATED HEREIN AND MADE A PART HEREOF BY REFERENCE. THE AUTHORIZED USER TERMS OF SERVICE AND THE PRIVACY POLICY ARE COLLECTIVELY REFERRED TO AS THE “AUTHORIZED USER AGREEMENT.” IF YOU DO NOT AGREE TO ANY OF THE TERMS OF THE AUTHORIZED USER AGREEMENT, THEN YOU ARE NOT AUTHORIZED TO USE THE SERVICES.</term-text><term-text>We reserve the right at any time and without notice to deny you access to the Services or to any portion thereof and to terminate your rights under these Terms, in our sole and absolute discretion. Your rights under these Terms will terminate automatically if you fail to comply with these Terms, subject to the survival rights of certain provisions identified herein. Termination will be effective without notice. Upon termination, You must promptly destroy all copies of any aspect of the Services in your possession, custody or control.</term-text><term-text-bold>THE SECTIONS BELOW TITLED “BINDING ARBITRATION” AND “CLASS ACTION WAIVER” CONTAIN A BINDING ARBITRATION AGREEMENT AND CLASS ACTION WAIVER. THEY AFFECT YOUR LEGAL RIGHTS. YOU MUST READ THEM.</term-text><term-text>We reserve the right, at our sole discretion, to modify, discontinue, or terminate the Services, or to modify the Authorized User Agreement, at any time and without prior notice. If we modify the Authorized User Agreement, we will post the modification on our website at www.equedi.com/terms-of-service. By continuing to access or use the Services after we have posted a modification to the Authorized User Agreement you are indicating that you agree to be bound by the modified Authorized User Agreement. If the modified Authorized User Agreement is not acceptable to you, your only recourse is to cease using the Services.</term-text><term-text>Capitalized terms not defined in these Authorized User Terms of Service shall have the meaning set forth in our Privacy Policy.</term-text></term><term><term-title>1. Services Description</term-title><term-text>The Equedi platform is an academic social network that allows students to share their educational journeys and connect with higher learning institutions in order to better improve their chances of attending the school of their dreams.</term-text><term-text>In order to use the Services, you will be required to set up an account and you are responsible for all activities that happen through your account.</term-text><term-text>In order to use the Services you may be required to agree, or you may have already agreed, to third party terms unrelated to Company. Please note, Company is not a party to such third party terms and disclaims all responsibility and liability for such third-party terms. Such third-party terms are solely between you and such third parties. Accordingly, we are not responsible for any disputes or disagreements between you and any third party you interact with using the Service and you assume all risk associated with dealing with such third parties. You agree to resolve disputes directly with such third party and release us of all claims, demands, and damages in disputes among related to such third-party interactions. In addition, you should undertake your own diligence regarding dealing with such third parties as we do not vouch for, research, vet and/or endorse them in any manner.</term-text><term-text>The Services include the use of third parties, which are completely at your discretion. Company does not take any responsibility whatsoever for any third parties used in the performance of the Services. Accordingly, you enter into discussions and/or arrangements with such third parties at your own risk regardless of whether or not Company presents such parties to you.</term-text></term><term><term-title>2. Technical requirements; Usage restrictions</term-title><term-text>You acknowledge that Company may establish general practices and limits concerning use of the Service, including without limitation the maximum period of time that data or other content will be retained by the Service and the maximum storage space that will be allotted on our servers on your behalf. You agree that Company has no responsibility or liability for the deletion or failure to store any data or other content maintained or uploaded by the Service. You acknowledge that Company reserves the right to terminate accounts that are inactive for an extended period of time.</term-text><term-text>You are solely responsible for all code, video, images, information, data, text, software, music, sound, photographs, graphics, messages or other materials (“User Content”) that you upload, post, publish or display (hereinafter, “Upload”) or email or otherwise use via the Service. You retain sole ownership of any User Content you submit via the Services; however, you grant us the right to use, reproduce, modify, perform, display, distribute and otherwise disclose your User Content (i) for the purpose of providing the Services to you and (ii) for our marketing and advertising purposes.</term-text><term-text>In order to access and use our Services, your device will need to meet Company’s minimum technical requirements which may be amended from time to time. We will use commercially reasonable efforts to notify you of any changes to the technical requirements via this website.</term-text><term-text>When using the Services, you agree to the following:</term-text><term-list><term-list-item>You will comply with all applicable laws in your use of the Services, and will not use the Services for any unlawful purpose;</term-list-item><term-list-item>You will provide accurate, complete, and up-to-date information about yourself when requested;</term-list-item><term-list-item>You will not impersonate any person or entity or falsely state or otherwise misrepresent your affiliation with a person or entity;</term-list-item><term-list-item>You will not interfere with, or attempt to interrupt the proper operation of, the Services through the use of any virus, device, information collection or transmission mechanism, software or routine, or access or attempt to gain access to any data, files, or passwords related to the Services through hacking, password or data mining, or any other means;</term-list-item><term-list-item>You will not decompile, reverse engineer, or disassemble any software, Services, or other products or processes accessible through the Services, or otherwise tamper with the Services;</term-list-item><term-list-item>You will not cover, obscure, block, or in any way interfere with any safety features in the Services;</term-list-item><term-list-item>You will not use any robot, spider, scraper, or other automated means to access the Services for any purpose; and</term-list-item><term-list-item>You will not take any action that imposes or may impose (in our sole discretion) an unreasonable or disproportionately large load on our technical infrastructure.</term-list-item></term-list></term><term><term-title>3. Fees</term-title><term-text>Applicable Fees, if any, will be disclosed on our pricing page found at www.equedi.com/pricing.</term-text></term><term><term-title>4. Support</term-title><term-text>If you are having technical difficulties with the Services at any time, or if you have questions about our Services, you may email or call us using the contact information on our website at www.equedi.com/help. All interactions between you and Company may be recorded, including phone calls, emails, and live chats.</term-text><term-text>With respect to all communications between you and any Company personnel, including, but not limited to, feedback, questions, comments, suggestions, and the like, we shall be free to use any ideas, concepts, know how, or techniques contained in your communications for any purpose whatsoever, including but not limited to, the development, production, and marketing of products and services that incorporate such information, without compensation or attribution to you.</term-text></term><term><term-title>5. Our disclaimer; Limitation of liability</term-title><term-text>YOU ACKNOWLEDGE THAT THE SERVICES, AND ALL OTHER INFORMATION AND MATERIALS PROVIDED BY COMPANY ARE NOT MEANT TO BE SUBSTITUTES FOR THE EXERCISE OF YOUR OWN JUDGMENT AND DILIGENCE. COMPANY’S SERVICES ARE FOR CONVENIENCE PURPOSES ONLY, AND COMPANY ITSELF DOES NOT MAKE ANY DETERMINATIONS ABOUT THE USEFULNESS OF THE SERVICES.</term-text><term-text>YOU ACKNOWLEDGE THAT THE SERVICES MAY CONTAIN BUGS, ERRORS, AND OTHER PROBLEMS THAT COULD CAUSE SYSTEM FAILURES. EXCEPT AS EXPRESSLY SET FORTH IN THIS AUTHORIZED USER AGREEMENT, THE SERVICES, AND ALL OTHER INFORMATION AND MATERIALS PROVIDED BY COMPANY ARE PROVIDED “AS IS” AND “AS AVAILABLE,” AND COMPANY MAKES NO REPRESENTATIONS OR WARRANTIES WITH RESPECT TO THE SAME OR OTHERWISE IN CONNECTION WITH THIS AUTHORIZED USER AGREEMENT, AND HEREBY DISCLAIMS ANY AND ALL EXPRESS, IMPLIED, OR STATUTORY WARRANTIES, INCLUDING, WITHOUT LIMITATION, ANY WARRANTIES OF NON-INFRINGEMENT, MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AVAILABILITY, ERROR-FREE OR UNINTERRUPTED OPERATION, AND ANY WARRANTIES ARISING FROM A COURSE OF DEALING, COURSE OF PERFORMANCE, OR USAGE OF TRADE.</term-text><term-text>IN CONNECTION WITH ANY WARRANTY, CONTRACT, OR COMMON LAW TORT CLAIMS: (I) WE SHALL NOT BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL OR CONSEQUENTIAL DAMAGES, LOST PROFITS, OR DAMAGES RESULTING FROM YOUR ACCESS TO OR USE OF THE SERVICES, INCLUDING, WITHOUT LIMITATION ANY LOST DATA RESULTING FROM THE USE OR INABILITY TO ACCESS AND USE THE SERVICES, OR ANY WEBSITE, EVEN IF WE HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES; AND (II) WE SHALL NOT BE LIABLE FOR ANY DIRECT DAMAGES, NOT ATTRIBUTABLE TO PERSONAL INJURIES, THAT YOU MAY SUFFER AS A RESULT OF YOUR USE OF THE SERVICES IN EXCESS OF ONE HUNDRED U.S. DOLLARS ($100). NO COMMON-LAW CAUSE OF ACTION ARISING UNDER TORT, CONTRACT, OR WARRANTY RELATED TO THE SERVICES, OR OTHERWISE ARISING UNDER THIS AUTHORIZED USER AGREEMENT, REGARDLESS OF FORM, MAY BE BROUGHT BY YOU MORE THAN ONE (1) YEAR AFTER SUCH ACTION HAS ACCRUED.</term-text><term-text>SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OR LIMITATION OF CERTAIN WARRANTIES; THEREFORE, SOME OF THE ABOVE LIMITATIONS IN THIS SECTION MAY NOT APPLY TO YOU.</term-text><term-text>NOTHING IN THESE TERMS SHALL AFFECT ANY NON-WAIVABLE STATUTORY RIGHTS THAT APPLY TO YOU.</term-text></term><term><term-title>6. Indemnification</term-title><term-text>You agree to defend, indemnify, and hold us and our affiliates and our and their respective officers, directors, employees, agents, successors, licensees, licensors, and assigns harmless from and against any damages, liabilities, losses, expenses, claims, actions, and/or demands, including, without limitation, reasonable legal and accounting fees, arising or resulting from: (i) your breach of this Authorized User Agreement; (ii) your misuse of the Services; and/or (iii) your violation of any third-party rights, including without limitation any copyright, trademark, property, publicity, or privacy right. We shall provide notice to you of any such claim, suit, or proceeding and shall assist you, at your expense, in defending any such claim, suit, or proceeding. We reserve the right to assume the exclusive defense and control (at your expense) of any matter that is subject to indemnification under this section. In such case, you agree to cooperate with any reasonable requests assisting our defense of such matter.</term-text></term><term><term-title>7. Intellectual property</term-title><term-text>The Services may contain material such as data, scans, designs, information, videos, photographs,\n                    software, text, graphics, images, sound recordings, and other material provided by or on behalf of\n                    Company (collectively referred to as the “Services Content”). The Services Content may be owned by\n                    us or third parties. The Services Content is protected under both United States and foreign laws.\n                    Unauthorized use of the Services Content may violate copyright, trademark, and other laws.</term-text><term-text>You may view all Services Content for your own personal, non-commercial use and strictly as necessary for the purposes outlined herein. No other use is permitted without the prior written consent of Company. Company retains all right, title, and interest, including all intellectual property rights, in and to the Services Content. You must retain all copyright and other proprietary notices contained in the original Services Content. You may not sell, transfer, assign, license, sublicense, or modify the Services Content or reproduce, display, publicly perform, make a derivative version of, distribute, or otherwise use the Services Content in any way for any public or commercial purpose. The use or posting of the Services Content on any other website, social media page, or in a networked computer environment for any purpose is expressly prohibited.</term-text><term-text>The trademarks, service marks, and logos of Company (the “Company Trademarks”) used and displayed on the Services are registered and unregistered trademarks or service marks of Company. Other company, product, and service names located in the Services may be trademarks or service marks owned by others (the “Third-Party Trademarks,” and, collectively with Company Trademarks, the “Trademarks”). Nothing in the Services should be construed as granting, by implication, estoppel, or otherwise, any license or right to use the Trademarks, without our prior written permission specific for each such use. Use of the Trademarks as part of a link to or from any site is prohibited unless establishment of such a link is approved in advance by us in writing. All goodwill generated from the use of8. Company Trademarks inures to our benefit.</term-text><term-text>Elements of the Services are protected by trade dress, trademark, unfair competition, and other state and federal laws and may not be copied or imitated in whole or in part, by any means, including, but not limited to, the use of framing or mirrors. None of the Services Content may be retransmitted without our express, written consent for each and every instance.</term-text><term-text>Notwithstanding anything to the contrary contained herein, you grant us a perpetual, irrevocable, transferable, sublicensable, worldwide, royalty free, fully paid up license to use any User Content in our sole discretion.</term-text><term-text>If you wish to make any use of material on the Services other than as set out herein, please address your request to www.equedi.com/help.</term-text></term><term><term-title>8. Compliance with applicable laws</term-title><term-text>The Services are based in the United States. We make no claims concerning whether the Services may be accessed, downloaded, viewed, or be appropriate for use outside of the United States. If you access the Services from outside of the United States, you do so at your own risk. Whether inside or outside of the United States, you are solely responsible for ensuring compliance with the laws of your specific jurisdiction.</term-text></term><term><term-title>9. Termination of the authorized user agreement</term-title><term-text>We reserve the right, in our sole discretion, to restrict, suspend, or terminate this Authorized User Agreement and your access to all or any part of the Services, at any time and for any reason without prior notice or liability. We reserve the right to change, suspend, or discontinue all or any part of the Services at any time without prior notice or liability. Sections 6-15 shall survive the termination of this Authorized User Agreement.</term-text></term><term><term-title>10. Controlling law</term-title><term-text>This Authorized User Agreement and any action related thereto will be governed by the laws of the State of New Jersey without regard to its conflict of laws provisions.</term-text></term><term><term-title>11. Binding arbitration</term-title><term-text>In the event of a dispute arising under or relating to this Authorized User Agreement and/or the Services (each, a “Dispute”), either party may elect to finally and exclusively resolve the dispute by binding arbitration governed by the Federal Arbitration Act (“FAA”). Any election to arbitrate, at any time, shall be final and binding on the other party. IF EITHER PARTY CHOOSES ARBITRATION, NEITHER PARTY SHALL HAVE THE RIGHT TO LITIGATE SUCH CLAIM IN COURT OR TO HAVE A JURY TRIAL, EXCEPT EITHER PARTY MAY BRING ITS CLAIM IN ITS LOCAL SMALL CLAIMS COURT, IF PERMITTED BY THAT SMALL CLAIMS COURT RULES AND IF WITHIN SUCH COURT’S JURISDICTION. ARBITRATION IS DIFFERENT FROM COURT, AND DISCOVERY AND APPEAL RIGHTS MAY ALSO BE LIMITED IN ARBITRATION. All disputes will be resolved before a neutral arbitrator selected jointly by the parties, whose decision will be final, except for a limited right of appeal under the FAA. The arbitration shall be commenced and conducted by JAMS pursuant to its then current Comprehensive Arbitration Rules and Procedures and in accordance with the Expedited Procedures in those rules, or, where appropriate, pursuant to JAMS’ Streamlined Arbitration Rules and Procedures. All applicable JAMS’ rules and procedures are available at the JAMS website www.jamsadr.com. Each party will be responsible for paying any JAMS filing, administrative, and arbitrator fees in accordance with JAMS rules. Judgment on the arbitrator’s award may be entered in any court having jurisdiction. This clause shall not preclude parties from seeking provisional remedies in aid of arbitration from a court of appropriate jurisdiction. The arbitration may be conducted in person, through the submission of documents, by phone, or online. The parties may litigate in court to compel arbitration, to stay a proceeding pending arbitration, or to confirm, modify, vacate, or enter judgment on the award entered by the arbitrator. The parties shall cooperate in good faith in the voluntary and informal exchange of all non-privileged documents and other information (including electronically stored information) relevant to the Dispute immediately after commencement of the arbitration. As set forth in Section 14 below, nothing in this Authorized User Agreement will prevent us from seeking injunctive relief in any court of competent jurisdiction as necessary to protect our proprietary interests.</term-text></term><term><term-title>12. Class action waiver</term-title><term-text>You agree that any arbitration or proceeding shall be limited to the Dispute between us and you individually. To the full extent permitted by law, (i) no arbitration or proceeding shall be joined with any other; (ii) there is no right or authority for any Dispute to be arbitrated or resolved on a class action-basis or to utilize class action procedures; and (iii) there is no right or authority for any Dispute to be brought in a purported representative capacity on behalf of the general public or any other persons. YOU AGREE THAT YOU MAY BRING CLAIMS AGAINST US ONLY IN YOUR INDIVIDUAL CAPACITY AND NOT AS A PLAINTIFF OR CLASS MEMBER IN ANY PURPORTED CLASS OR REPRESENTATIVE PROCEEDING.</term-text></term><term><term-title>13. Equitable relief</term-title><term-text>You acknowledge and agree that in the event of a breach or threatened violation of Our intellectual property rights and confidential and proprietary information by You, we will suffer irreparable harm and will therefore be entitled to injunctive relief to enforce this Authorized User Agreement. We may, without waiving any other remedies under this Authorized User Agreement, seek from any court having jurisdiction any interim, equitable, provisional, or injunctive relief that is necessary to protect our rights and property pending the outcome of the arbitration referenced above. You hereby irrevocably and unconditionally consent to the personal and subject matter jurisdiction of the federal and state courts in the State of Jersey for purposes of any such action by us.</term-text></term><term><term-title>14. Miscellaneous</term-title><term-text>Our failure to act on or enforce any provision of this Authorized User Agreement shall not be construed as a waiver of that provision or any other provision in this Authorized User Agreement. No waiver shall be effective against us unless made in writing, and no such waiver shall be construed as a waiver in any other or subsequent instance. Except as expressly agreed by us and you in writing, this Authorized User Agreement constitutes the entire Authorized User Agreement between you and us with respect to the subject matter, and supersedes all previous or contemporaneous agreements, whether written or oral, between the parties with respect to the subject matter. The section headings are provided merely for convenience and shall not be given any legal import. This Authorized User Agreement will inure to the benefit of our successors, assigns, licensees, and sublicensees.</term-text></term><term-text>Copyright 2020 Equedi LLC All rights reserved.</term-text>"
+    },
+    "privacyPolicy": {
+        "home": "Home",
+        "privacyPolicy": "Privacy Policy",
+        "content": "<title>Privacy Policy</title><subtitle>Last Updated: September 23, 2020</subtitle><term><term-text>We at Equedi LLC (“Company,” “we,” “us,” or “our”) have created this privacy policy (this “Website Privacy Policy”) to outline the information collection and use practices in connection with our website located at www.equedi.com (the “Website”).</term-text></term><term><term-title>Description of Users and Acceptance of Terms</term-title><term-text>This Website Privacy Policy applies to visitors to the Website (“Visitors,” “you,” or “your”).</term-text><term-text>By accessing our Website, Visitors are agreeing to the terms of this Website Privacy Policy and the accompanying Website Terms of Use located at www.equedi.com/terms-of-service which are hereby incorporated by reference.</term-text></term><term><term-title>The Information We Collect and How We Use It</term-title><term-text>In the course of operating the Website, Company collects or receives the following types of information:</term-text><term-subtitle>Contact Information</term-subtitle><term-text>We collect contact information on our Website; the contact information collected varies depending on the webpage but typically includes some combination of your name, email address, institution information, and the information you provide in messages to us and/or through the Website. We use such contact information for purposes such as responding to, and following up regarding, your inquiries, providing you with requested information, storing contact details into our customer relationship management database, providing you with a demo, speaking with you via our live-chat support option, or sending you email alerts (including marketing emails).</term-text><term-subtitle>Server Logs</term-subtitle><term-text>Like most websites today, our web servers keep log files that record data each time a device accesses those servers. The log files contain data about the nature of such access, including the device’s IP address, user agent string (e.g., operating system and browser type/version), and referral URL (i.e., the external source by which you arrived at our Website, or the pages you’ve clicked on while on our Website). We may use these log files for purposes such as assisting in monitoring and troubleshooting errors and incidents, analyzing web traffic, or optimizing the user experience.</term-text><term-subtitle>Cookies</term-subtitle><term-text>We collect information using “cookie” technology. Cookies are small packets of data that a website stores on your computer’s or mobile device’s hard drive (or other storage medium) so that your computer will “remember” information about your visit. We may use both 1st and 3rd- party session cookies and persistent cookies. Below is a general primer on session and persistent cookies; information collected by cookies depends on its particular purpose. For more information, please see the information regarding analytics providers discussed further below.</term-text><term-list><term-list-item><bold>Session Cookies</bold>: We use session cookies to make it easier for you to navigate our Website. A session ID cookie expires when you close your browser.</term-list-item><term-list-item><bold>Persistent Cookies</bold>: A persistent cookie remains on your hard drive for an extended period of time or until you delete them. You can remove persistent cookies by following directions provided in your web browser’s “help” file. To the extent we provide a log-in portal or related feature on our Website, persistent cookies can be used to store your passwords so that you don’t have to enter it more than once. We may also use persistent cookies to track and target the interests of our Visitors to personalize the experience on our Website.</term-list-item></term-list><term-text>In some cases, we may associate information that you have provided to us (e.g., email address) with the cookies that we use. In addition to facilitating the purposes described above, this is useful in understanding your engagement with other content related to our Website (e.g., email open rates, URL clickthroughs).</term-text><term-text>If you do not want us to place a cookie on your hard drive, you may be able to turn that feature off on your computer or mobile device. Please consult your browser’s documentation for information on how to do this and how to delete persistent cookies. However, if you decide not to accept cookies from us, certain aspects of the Website may not function properly or as intended.</term-text><term-subtitle>Aggregate Data</term-subtitle><term-text>In an ongoing effort to better understand our Visitors and the Website, we might analyze your information in aggregate form to carry out, maintain, manage, and improve operations in connection with the Website. This aggregate information does not identify you personally. We may share this aggregate data with our affiliates, agents, and business partners. We may also disclose aggregated user statistics in order to describe our services and the Website to current and prospective business partners and to other third parties for other lawful purposes.</term-text><term-subtitle>Business Transfers</term-subtitle><term-text>In the event of a merger, dissolution, reorganization or similar corporate event, or the sale of all or substantially all of our assets, we expect that the information that we have collected, including personal information, would be transferred to the surviving entity in a merger or the acquiring entity. All such transfers shall be subject to our commitments with respect to the privacy and confidentiality of such personal information as set forth in this Website Privacy Policy. This Website Privacy Policy shall be binding upon Company’s and its legal successors in interest.</term-text><term-subtitle>Feedback</term-subtitle><term-text>We welcome feedback and suggestions about how to improve the Services. However, by transmitting any ideas, suggestions, information, or other material, you represent and warrant that such feedback does not infringe, misappropriate or violate the intellectual property or proprietary rights of any third party and that you have all rights necessary to convey such feedback to us. Any use of such feedback or suggestions will be without any compensation or recognition of any kind.</term-text><term-subtitle>Disclosure to Public Authorities</term-subtitle><term-text>We are required to disclose personal information in response to lawful requests by public authorities, including for the purpose of meeting law enforcement requirements. We may also disclose personal information to other third parties when compelled to do so by government authorities or required by law or regulation including, but not limited to, in response to court orders and subpoenas.</term-text><term-subtitle>How We Protect Your Information</term-subtitle><term-text>We take commercially reasonable steps designed to protect your personal information from loss, misuse, and unauthorized access, disclosure, alteration, or destruction. Please understand, however, that no security system is impenetrable. We cannot guarantee the security of our databases, nor can we guarantee that the information you supply will not be intercepted while being transmitted to and from us over the Internet.</term-text><term-subtitle>Retention of Personal Information</term-subtitle><term-text>We will retain your personal information in a form that identifies you only for as long as it serves the purpose(s) for which it was initially collected as stated in this Website Privacy Policy, subsequently authorized, or as allowed under applicable law.</term-text><term-subtitle>Opt-Out for Email Marketing and Certain Other Communications</term-subtitle><term-text>You may also manage your receipt of marketing communications by clicking on the \"Unsubscribe\" link located on the bottom of an applicable marketing email and following the instructions found on any page to which the link may take you, or by contacting us at <bold>help@equedi.com.</bold></term-text><term-text>You cannot opt out of receiving administrative or transactional e-mails. In all such cases, please allow us a reasonable time to process your request.</term-text><term-subtitle>Children</term-subtitle><term-text>We do not knowingly collect personal information from children under the age of 13 through the Website. If you are under 13, please do not give us any personal information. We encourage parents and legal guardians to monitor their children’s Internet usage and to help enforce our Website Privacy Policy by instructing their children to never provide personal information to us. If you have reason to believe that a child under the age of 13 has provided personal information to us, please contact us at <bold>help@equedi.com</bold> and we will endeavor to delete that information from our databases.</term-text><term-subtitle>Important Notice to All Non-US Residents</term-subtitle><term-text>The Services are not meant for use or access by non-US residents. In addition, our servers are located in the US. If you are located outside of the US, please be aware that any information provided to us, including personal information, will be transferred from your country of origin to the US. Your decision to provide such data to us, or allow us to collect such data through our Website, constitutes your consent to this data transfer.</term-text><term-subtitle>Your California Privacy Rights</term-subtitle><term-text>Pursuant to Section 1798.83 of the California Civil Code, residents of California have the right to obtain certain information about the types of personal information that companies with whom they have an established business relationship (and that are not otherwise exempt) have shared with third parties for direct marketing purposes during the preceding calendar year, including the names and addresses of those third parties, and examples of the types of services or products marketed by those third parties. If you wish to submit a request pursuant to Section 1798.83, please contact us via email at <bold>ccpa_request@equedi.com</bold>.</term-text><term-subtitle>Do Not Track</term-subtitle><term-text>We do not respond to \"Do Not Track\" settings or other related mechanisms at this time.</term-text><term-subtitle>Links to External Websites</term-subtitle><term-text>The Website may contain links to third-party websites (“External Sites”). We have no control over the privacy practices or the content of any such External Sites. As such, we are not responsible for the content or the privacy policies of such External Sites. You should check the applicable privacy policy and terms of use when visiting or submitting any information through such External Sites.</term-text><term-subtitle>Changes to This Website Privacy Policy</term-subtitle><term-text>This Website Privacy Policy is effective as of the ‘Last Updated’ date stated at the top of this Website Privacy Policy. We may change this Website Privacy Policy from time to time with or without notice to you. By visiting the Website after we make any such changes to this Website Privacy Policy, you are deemed to have accepted such changes. Please be aware that, to the extent permitted by applicable law, and without prejudice to the foregoing, our use of your information is governed by the Website Privacy Policy in current effect. Please refer back to this Website Privacy Policy on a regular basis.</term-text><term-subtitle>How to Contact Us</term-subtitle><term-text>If you have questions about this Website Privacy Policy, please e-mail us at help@equedi.com with “Website Privacy Policy” in the subject line.</term-text></term>"
+    },
+    "helpScreen": {
+        "help": "Help",
+        "title": "Need Help or Have Suggestions?",
+        "content": "We’re here to help you, whether it’s an issue you’re having with the app or a suggestion you have to make the site better. Please fill out the form below to get in contact with a member of the Equedi team."
+    },
+    "errorScreen": {
+        "title": {
+            "400": "Bad Request",
+            "403": "Forbidden",
+            "404": "Not Found",
+            "405": "Method Not Allowed",
+            "414": "Request-URI Too Long",
+            "416": "Requested Range Not Satisfiable",
+            "500": "Internal Server Error",
+            "501": "Not Implemented",
+            "502": "Bad Gateway",
+            "503": "Service Unavailable",
+            "504": "Gateway Timeout"
+        }
+    }
+}

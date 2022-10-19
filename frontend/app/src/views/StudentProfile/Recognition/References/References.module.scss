@@ -1,0 +1,31 @@
+@import "src/styles/mixins/breakpoints";
+
+:local(.container) {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 64px -9px;
+
+  @include breakpoint('medium') {
+    flex-direction: column;
+    margin: 9px 0;
+  }
+
+  :local(.reference) {
+    flex: calc(50% - 18px) 0;
+    width: calc(50% - 18px);
+    margin: 9px;
+    z-index: 1;
+
+    @include breakpoint('medium') {
+      flex: 1;
+      width: 100%;
+      margin: 9px 0;
+    }
+  }
+
+  :local(.addReferenceContainer) {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+}

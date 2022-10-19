@@ -1,0 +1,172 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProfilePhoto component should render and match the snapshot loading 1`] = `
+<span
+  class="MuiSkeleton-root MuiSkeleton-circular MuiSkeleton-pulse rounded-circle css-fomgco-MuiSkeleton-root"
+  style="width: 64px; height: 64px;"
+/>
+`;
+
+exports[`ProfilePhoto component should render and match the snapshot notification profile photo is not set 1`] = `
+<div
+  class="container"
+>
+  <img
+    alt=""
+    class="border"
+    src="13.svg"
+  />
+  <svg
+    class="ring"
+    viewBox="0 0 33 33"
+  >
+    <g
+      fill="none"
+      stroke-width="1"
+      transform="rotate(0 16.5 16.5)"
+    >
+      <path
+        d="M16.5 0.5845056908104667 a 15.915494309189533 15.915494309189533 0 0 1 0 31.830988618379067 a 15.915494309189533 15.915494309189533 0 0 1 0 -31.830988618379067"
+        stroke="#005DCC"
+        stroke-dasharray="100, 100"
+        stroke-linecap="round"
+      />
+    </g>
+  </svg>
+</div>
+`;
+
+exports[`ProfilePhoto component should render and match the snapshot notification profile photo is set 1`] = `
+<div
+  class="container"
+>
+  <img
+    alt=""
+    class="border"
+    src="https://mock.equedi.com/media/http://lorempixel.com/640/480?eqmt=n74ly0hcvu701ce68uuk7rqwe260qw2t"
+  />
+  <svg
+    class="ring"
+    viewBox="0 0 33 33"
+  >
+    <g
+      fill="none"
+      stroke-width="1"
+      transform="rotate(0 16.5 16.5)"
+    >
+      <path
+        d="M16.5 0.5845056908104667 a 15.915494309189533 15.915494309189533 0 0 1 0 31.830988618379067 a 15.915494309189533 15.915494309189533 0 0 1 0 -31.830988618379067"
+        stroke="#005DCC"
+        stroke-dasharray="100, 100"
+        stroke-linecap="round"
+      />
+    </g>
+  </svg>
+</div>
+`;
+
+exports[`ProfilePhoto component should render and match the snapshot reference media is not set 1`] = `
+<div
+  class="container"
+>
+  <span
+    class="initials"
+  >
+    LB
+  </span>
+</div>
+`;
+
+exports[`ProfilePhoto component should render and match the snapshot reference media is set 1`] = `
+<div
+  class="container"
+>
+  <img
+    alt=""
+    class=""
+    src="https://mock.equedi.com/media/http://lorempixel.com/640/480?eqmt=n74ly0hcvu701ce68uuk7rqwe260qw2t"
+  />
+</div>
+`;
+
+exports[`ProfilePhoto component should render and match the snapshot student profile photo not set 1`] = `
+<div
+  class="container"
+>
+  <img
+    alt=""
+    class="border"
+    src="01.svg"
+  />
+  <svg
+    class="ring"
+    viewBox="0 0 33 33"
+  >
+    <g
+      fill="none"
+      stroke-width="1"
+      transform="rotate(0 16.5 16.5)"
+    >
+      <path
+        d="M16.5 0.5845056908104667 a 15.915494309189533 15.915494309189533 0 0 1 0 31.830988618379067 a 15.915494309189533 15.915494309189533 0 0 1 0 -31.830988618379067"
+        stroke="#005DCC"
+        stroke-dasharray="100, 100"
+        stroke-linecap="round"
+      />
+    </g>
+  </svg>
+</div>
+`;
+
+exports[`ProfilePhoto component should render and match the snapshot student profile photo set 1`] = `
+<div
+  class="container"
+>
+  <img
+    alt=""
+    class="border"
+    src="https://mock.equedi.com/media/http://lorempixel.com/640/480?eqmt=n74ly0hcvu701ce68uuk7rqwe260qw2t"
+  />
+  <svg
+    class="ring"
+    viewBox="0 0 33 33"
+  >
+    <g
+      fill="none"
+      stroke-width="1"
+      transform="rotate(0 16.5 16.5)"
+    >
+      <path
+        d="M16.5 0.5845056908104667 a 15.915494309189533 15.915494309189533 0 0 1 0 31.830988618379067 a 15.915494309189533 15.915494309189533 0 0 1 0 -31.830988618379067"
+        stroke="#005DCC"
+        stroke-dasharray="100, 100"
+        stroke-linecap="round"
+      />
+    </g>
+  </svg>
+</div>
+`;
+
+exports[`ProfilePhoto component should render and match the snapshot university profile photo not set 1`] = `
+<div
+  class="container"
+>
+  <span
+    class="initials"
+  >
+    UU
+  </span>
+</div>
+`;
+
+exports[`ProfilePhoto component should render and match the snapshot university profile photo set 1`] = `
+<div
+  class="container"
+>
+  <img
+    alt=""
+    class=""
+    src="https://mock.equedi.com/http://lorempixel.com/640/480"
+  />
+</div>
+`;

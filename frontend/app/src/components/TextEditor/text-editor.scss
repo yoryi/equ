@@ -1,0 +1,80 @@
+.rdw-editor-main {
+    max-width: 750px;
+    min-height: 300px;
+    margin: auto;
+    border: 1px solid #eaebeb;
+    border-radius: 4px;
+    font-family: Ilisarniq, sans-serif;
+    font-size: 18px;
+    line-height: 156%;
+    color: var(--dark-grey);
+    padding: 16px;
+    * {
+        font-family: Ilisarniq, sans-serif !important;
+        font-size: 18px !important;
+    }
+}
+
+.rte-error {
+    .rdw-editor-main {
+        background: var(--light-red);
+        border: 1px solid var(--main-red);
+        * {
+            background: var(--light-red);
+        }
+    }
+}
+
+.rdw-editor-toolbar {
+    border: none !important;
+    margin-top: 16px;
+    div {
+        margin-bottom: 0px !important;
+    }
+    .active-005dcc > div > span:first-child > div > span > div {
+        box-shadow: #005dcc 0px 0px 0px 15px inset !important;
+        border: 2px solid #1f242b !important;
+    }
+    .active-00ac58 > div > span:nth-child(2) > div > span > div {
+        box-shadow: #00ac58 0px 0px 0px 15px inset !important;
+        border: 2px solid #1f242b !important;
+    }
+    .active-c90da0 > div > span:nth-child(3) > div > span > div {
+        box-shadow: #c90da0 0px 0px 0px 15px inset !important;
+        border: 2px solid #1f242b !important;
+    }
+    .active-ebad00 > div > span:nth-child(4) > div > span > div {
+        box-shadow: #ebad00 0px 0px 0px 15px inset !important;
+        border: 2px solid #1f242b !important;
+    }
+    .active-c91c0d > div > span:nth-child(5) > div > span > div {
+        box-shadow: #c91c0d 0px 0px 0px 15px inset !important;
+        border: 2px solid #1f242b !important;
+    }
+    .active-1f242b > div > span:nth-child(6) > div > span > div {
+        box-shadow: #1f242b 0px 0px 0px 15px inset !important;
+        border: 2px solid #1f242b !important;
+    }
+    div > div > span > div {
+        transform: scale(1) !important;
+    }
+}
+
+.rdw-option-wrapper {
+    border: none !important;
+}
+
+.rdw-editor-custom-color {
+    width: 28px;
+    height: 28px;
+    border-radius: 50px;
+    margin-left: 8px;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 650px) {
+    .rdw-editor-main {
+        min-height: 200px;
+    }
+}

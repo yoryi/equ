@@ -1,0 +1,157 @@
+@import "src/styles/mixins/breakpoints";
+
+:local(.container) {
+  display: block;
+  max-width: 960px;
+  margin: 24px auto;
+
+  @include breakpoint('medium') {
+    max-width: unset;
+    margin: 24px 16px;
+  }
+
+  :local(.card) {
+    @include breakpoint('medium') {
+      padding: 28px 32px;
+    }
+
+    :local(.titleContainer) {
+      display: flex;
+
+      @include breakpoint('small') {
+        flex-direction: column;
+
+        :local(.title) {
+          margin-bottom: 4px;
+        }
+      }
+
+      :local(.toggleHiddenStepsVisibility) {
+        background-color: transparent;
+        outline: 0;
+        border: 0;
+        margin-left: 16px;
+        padding: 0;
+        font-size: 14px;
+        line-height: 16px;
+        color: var(--main-blue);
+        text-align: left;
+        z-index: 1000;
+        margin-bottom: .4rem;
+
+        @include breakpoint('small') {
+          margin-left: 0;
+        }
+      }
+    }
+  }
+
+  :local(.progress) {
+    position: relative;
+    margin-top: 32px;
+    width: 100%;
+    height: 16px;
+    background-color: var(--light-blue);
+    border-radius: 12px;
+
+    :local(.bar) {
+      height: 16px;
+      background-color: var(--main-blue);
+      border-radius: 12px;
+    }
+
+    :local(.icon) {
+      position: absolute;
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+
+  :local(.carousel) {
+    margin-top: 48px;
+
+    :local(.arrow) {
+      position: absolute;
+      background-color: transparent;
+      outline: none;
+      border: 0;
+      padding: 8px 0;
+
+      &:hover {
+        background-color: transparent;
+      }
+
+      &::before {
+        content: none;
+      }
+
+      &:local(.left) {
+        left: 0;
+      }
+
+      &:local(.right) {
+        right: 0;
+      }
+    }
+
+    :local(.item) {
+      position: relative;
+      display: flex;
+      align-items: flex-start;
+      margin: 0 40px;
+      background-color: transparent;
+      border: 0;
+      outline: none;
+      text-align: left;
+
+      @include breakpoint('small') {
+        margin: 0;
+      }
+
+      :local(.content) {
+        display: flex;
+        flex-direction: column;
+        margin-left: 12px;
+
+        :local(.title) {
+          font-family: Ilisarniq, sans-serif;
+          font-size: 20px;
+          line-height: 20px;
+          font-weight: 600;
+          color: var(--main-dark);
+          margin-bottom: 4px;
+        }
+
+        :local(.text) {
+          font-family: Ilisarniq, sans-serif;
+          font-size: 16px;
+          line-height: 20px;
+          color: var(--dark-grey);
+        }
+
+        :local(.hideStep) {
+          background-color: transparent;
+          outline: 0;
+          border: 0;
+          padding: 0;
+          margin-top: 8px;
+          font-size: 16px;
+          line-height: 16px;
+          color: var(--main-blue);
+          text-align: left;
+          z-index: 1000;
+        }
+      }
+
+      :local(.input) {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        cursor: pointer;
+      }
+    }
+  }
+}

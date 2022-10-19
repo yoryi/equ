@@ -1,0 +1,49 @@
+:local(.container) {
+    display: flex;
+    flex-direction: column;
+
+    :local(.labels) {
+        position: relative;
+        display: flex;
+        min-height: 20px;
+        margin-bottom: 12px;
+
+        :local(.value) {
+            position: absolute;
+        }
+
+        &:last-child {
+            margin-top: 8px;
+            margin-bottom: 0;
+
+            :local(.value) {
+                transform: translateX(50%);
+            }
+        }
+
+        &:not(:last-child) :local(.value):first-child:last-child {
+            transform: translateX(-50%);
+        }
+    }
+
+    :local(.bar) {
+        position: relative;
+        width: 100%;
+        height: 16px;
+        background-color: var(--light-blue);
+        border-radius: 12px;
+
+        :local(.value) {
+            height: 16px;
+            background-color: var(--main-blue);
+            border-radius: 12px;
+        }
+
+        :local(.line) {
+            position: absolute;
+            width: 0px;
+            height: 100%;
+            border-left: 1px dashed var(--light-blue);
+        }
+    }
+}

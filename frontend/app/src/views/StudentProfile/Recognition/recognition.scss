@@ -1,0 +1,282 @@
+.recognition-tab {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #fefbf2;
+    position: relative;
+    padding-bottom: 120px;
+
+    &-cover-img {
+        position: absolute;
+        right: 0px;
+        bottom: 0px;
+    }
+
+    .awards {
+        .no-title {
+            img {
+                z-index: 3;
+            }
+        }
+        &-table {
+            &-row {
+                border-bottom: 1px solid var(--light-grey);
+                padding-top: 16px;
+                padding-bottom: 16px;
+                &:first-child {
+                    padding-top: 0px;
+                }
+                &:last-child {
+                    border-bottom: none;
+                }
+            }
+            &-name {
+                font-family: Ilisarniq, sans-serif;
+                font-weight: bold;
+                font-size: 24px;
+                line-height: 32px;
+                color: var(--main-dark);
+                letter-spacing: -0.04em;
+            }
+            &-organisation {
+                font-family: Ilisarniq, sans-serif;
+                font-size: 16px;
+                line-height: 24px;
+                color: var(--grey);
+                margin-bottom: 3px;
+            }
+            &-date {
+                font-family: Ilisarniq, sans-serif;
+                font-size: 16px;
+                line-height: 24px;
+                color: var(--grey);
+            }
+        }
+        .awards-modal-body {
+            width: 100%;
+            margin: auto;
+            &-header {
+                margin-top: 40px;
+                margin-bottom: 8px;
+                display: flex;
+                font-family: Ilisarniq, sans-serif;
+                font-weight: bold;
+                font-size: 14px;
+                line-height: 100%;
+                text-transform: uppercase;
+                color: var(--main-dark);
+                div:first-child {
+                    margin-left: 72px;
+                }
+            }
+            &-row {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                &-name {
+                    width: 40%;
+                    margin-left: 32px;
+                    margin-right: 8px;
+                    font-family: Ilisarniq, sans-serif;
+                    font-size: 16px;
+                    line-height: 100%;
+                    color: var(--main-dark);
+                }
+                &-organisation {
+                    width: 30%;
+                    margin-left: 8px;
+                    margin-right: 8px;
+                    font-family: Ilisarniq, sans-serif;
+                    font-size: 14px;
+                    line-height: 143%;
+                    color: var(--grey);
+                }
+                &-date {
+                    width: 30%;
+                    margin-left: 8px;
+                    margin-right: 8px;
+                    font-family: Ilisarniq, sans-serif;
+                    font-size: 14px;
+                    line-height: 143%;
+                    color: var(--grey);
+                }
+                img {
+                    cursor: pointer;
+                }
+            }
+            &-footer {
+                font-family: Ilisarniq, sans-serif;
+                font-size: 16px;
+                line-height: 100%;
+                color: var(--main-blue);
+                cursor: pointer;
+                margin-bottom: 40px;
+                margin-top: 10px;
+                margin-left: 72px;
+            }
+            .text-field {
+                width: 90% !important;
+                margin-top: 12px;
+                margin-right: 0px;
+                input {
+                    margin-bottom: 4px;
+                }
+            }
+        }
+        .add-award-modal-body {
+            .text-field {
+                margin-top: 12px;
+                margin-right: 0px;
+                input {
+                    margin-bottom: 4px;
+                }
+            }
+        }
+    }
+
+    .references {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &-container {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-left: 20px;
+            position: relative;
+            top: -12px;
+        }
+        &-title {
+            margin-top: 8px;
+            font-family: Ilisarniq, sans-serif;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 133%;
+            color: var(--main-dark);
+        }
+        &-subtitle {
+            margin-top: 2px;
+            font-family: Ilisarniq, sans-serif;
+            font-weight: bold;
+            font-size: 21px;
+            line-height: 114%;
+            color: var(--grey);
+        }
+        &-subject {
+            margin-top: 2px;
+            margin-bottom: 12px;
+            font-family: Ilisarniq, sans-serif;
+            font-size: 16px;
+            color: var(--grey);
+        }
+
+        .card {
+            width: 471px;
+            height: 308px;
+            margin-bottom: 10px;
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .recognition-tab {
+        .references {
+            flex-direction: column;
+            &-title {
+                font-size: 16px;
+            }
+            &-subtitle {
+                font-size: 14px;
+            }
+            &-subject {
+                font-size: 12px;
+            }
+            .default-button {
+                height: 34px !important;
+                font-size: 10px !important;
+                padding: 8px !important;
+            }
+
+            .card {
+                width: 350px;
+                height: 274px;
+                margin-bottom: 10px;
+                margin-left: 5px;
+                margin-right: 5px;
+            }
+        }
+        &-cover-img {
+            transform: scale(0.5);
+            position: absolute;
+            right: -230px;
+            bottom: -248px;
+        }
+        .awards {
+            &-table {
+                &-name {
+                    font-size: 20px;
+                    line-height: 20px;
+                    color: var(--main-dark);
+                    margin-bottom: 4px;
+                }
+            }
+            .awards-modal-body {
+                img {
+                    height: 18px;
+                }
+                &-header {
+                    display: flex;
+                    align-items: flex-end;
+                    font-size: 12px;
+                    div:first-child {
+                        margin-left: 24px;
+                    }
+                }
+                &-row {
+                    padding-left: 0px!important;
+                    padding-right: 0px!important;
+
+                    &-name {
+                        margin-left: 8px;
+                        margin-right: 4px;
+                        font-size: 12px;
+                    }
+                    &-organisation {
+                        margin-left: 4px;
+                        margin-right: 4px;
+                        font-size: 11px;
+                    }
+                    &-date {
+                        margin-left: 4px;
+                        margin-right: 4px;
+                        font-size: 11px;
+                    }
+                }
+                &-footer {
+                    font-size: 11px;
+                    margin-left: 24px;
+                }
+            }
+            .add-award-modal-body {
+                margin-left: 8px;
+                .text-field {
+                    width: 310px !important;
+                    margin-top: 8px;
+                    font-size: 12px;
+                    label {
+                        font-size: 12px;
+                    }
+                }
+                .custom-datepicker {
+                    margin-left: 0px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,46 @@
+@import "src/styles/mixins/breakpoints";
+
+:local(.container) {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  :local(.profileContainer) {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex: 1 1 0;
+    min-width: 0;
+
+    :local(.detailsContainer) {
+      flex: 1 1 0;
+      min-width: 0;
+
+      :local(.name) {
+        overflow-wrap: break-word;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+      }
+  
+      :local(.position),
+      :local(.classes) {
+        font-family: Ilisarniq, sans-serif;
+        font-size: 16px;
+        line-height: 24px;
+        color: var(--grey);
+  
+        @include breakpoint('small') {
+          font-size: 12px;
+          line-height: 18px;
+        }
+      }
+    }
+  }
+
+  :local(.buttonContainer) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}

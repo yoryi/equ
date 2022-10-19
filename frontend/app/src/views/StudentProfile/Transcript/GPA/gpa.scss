@@ -1,0 +1,103 @@
+.gpa-chart {
+    transform: scale(0.85);
+    margin-right: 110px;
+    position: relative;
+    left: -60px;
+    &-axis {
+        width: 70px;
+        white-space: nowrap;
+        margin-bottom: 65px;
+        margin-right: 15px;
+        font-family: Ilisarniq, sans-serif;
+        font-size: 16px;
+        line-height: 150%;
+        color: var(--grey);
+        div {
+            font-family: Ilisarniq, sans-serif;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 133%;
+            color: var(--main-dark);
+        }
+    }
+    &-x-axis {
+        text-align: center;
+        margin-left: 35px;
+        font-family: Ilisarniq, sans-serif;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 133%;
+        color: var(--main-dark);
+    }
+    &-ellipse-text {
+        position: absolute;
+        top: 8px;
+        font-family: Ilisarniq, sans-serif;
+        font-size: 12px;
+        line-height: 150%;
+        color: #fff;
+    }
+}
+
+.gpa-modal {
+    padding: 48px 32px;
+
+    .card-title {
+        position: relative;
+        z-index: 1000;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .gpa-modal {
+        padding: 48px 20px 48px 20px;
+
+        canvas {
+            margin-left: -8px!important;
+            padding-bottom: 10px;
+        }
+
+        .card-title {
+            top: -20px;
+        }
+    }
+    .gpa-chart {
+        transform: scale(1);
+        left: 0px;
+
+        &-axis {
+            display: flex;
+            align-items: flex-end;
+            margin: 0px;
+            font-size: 8px;
+            position: relative;
+            top: -25px;
+            height: 24px;
+
+            div {
+                font-family: Ilisarniq, sans-serif;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 16px;
+                color: var(--grey);
+            }
+            &-title {
+                font-family: Ilisarniq, sans-serif;
+                font-weight: bold !important;
+                font-size: 20px !important;
+                line-height: 110%;
+                color: var(--main-dark) !important;
+                margin-right: 6px;
+                margin-bottom: 2px;
+            }
+        }
+        &-x-axis {
+            text-align: center;
+            margin-left: 0px;
+            font-size: 16px;
+            line-height: 133%;
+            color: var(--main-dark);
+        }
+    }
+}

@@ -1,0 +1,58 @@
+:local(.link) {
+  padding: 4px 4px 8px;
+  font-size: 16px;
+  line-height: 16px;
+  color: var(--grey);
+  border-radius: 5px;
+
+  &:hover {
+    color: var(--grey);
+    background-color: var(--light-grey) !important;
+  }
+
+  &:hover:active {
+    opacity: 0.75;
+  }
+
+  svg {
+    position: relative;
+    top: -1px;
+  }
+}
+
+:local(.buttons) {
+  padding: 0 143px;
+}
+
+:local(.map) > div {
+  height: 100%;
+}
+
+:local(.copyMessage) {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: auto;
+  transform: translate(-50%, -100%);
+  font-size: 12px;
+  transition: .5s all;
+  animation: copyMessage 1s;
+  opacity: 0;
+  white-space: nowrap;
+}
+
+@keyframes copyMessage {
+  0% {
+    transform: translate(-50%, -100%);
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    transform: translate(-50%, calc(-100% - 12px));
+    opacity: 0
+  }
+}

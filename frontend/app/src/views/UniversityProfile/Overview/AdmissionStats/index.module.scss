@@ -1,0 +1,17 @@
+@import "src/styles/mixins/card/stats";
+
+:local(.cardText) {
+  @include statsCardContainer;
+
+  :local(.row) {
+    @include statsCardRow;
+  }
+
+  :local(.calculateYourNetPrice) {
+    align-self: center;
+    margin: 16px 0;
+    font-size: 16px;
+    line-height: 16px;
+    color: var(--main-blue) !important;
+  }
+}

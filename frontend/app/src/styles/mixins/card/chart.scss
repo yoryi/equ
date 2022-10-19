@@ -1,0 +1,10 @@
+@mixin chartCardContainer {
+  position: relative;
+}
+
+@mixin chartCardLabel {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(calc(-50% + 4px), calc(-50% - 4px));
+}

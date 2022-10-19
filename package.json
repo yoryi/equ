@@ -1,0 +1,16 @@
+{
+  "name": "monorepo",
+  "version": "0.0.0",
+  "private": true,
+  "engines": {
+    "node": ">=14",
+    "npm": "please-use-yarn",
+    "yarn": ">=1.22"
+  },
+  "scripts": {
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "@10stars/config": "^2.0.1"
+  }
+}

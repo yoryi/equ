@@ -1,0 +1,34 @@
+.unsaved-changes-modal {
+    &-footer {
+        display: flex;
+        padding-bottom: 0px;
+        .primary-button {
+            min-width: auto!important;
+            width: 115px !important;
+            height: 40px !important;
+            margin-top: 20px;
+            box-shadow: none;
+            font-family: Ilisarniq, sans-serif;
+            font-weight: bold;
+            font-size: 12px;
+            line-height: 100%;
+            text-transform: uppercase;
+            color: #fff;
+            &:first-child {
+                background: var(--light-blue)!important;
+                color: var(--main-blue)!important;
+                box-shadow: none!important;
+                &:hover {
+                    color: var(--main-blue)!important;
+                    transform: scale(1);
+                    transition: none!important;
+                }
+            }   
+      
+        }
+    }
+    &-header {
+        padding-left: 28px;
+        padding-right: 28px;
+    }
+}

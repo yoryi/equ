@@ -1,0 +1,18 @@
+:local(.part2) {
+  left: calc(60vw + 150px);
+  transform: translateX(-45%);
+}
+
+:local(.part3) {
+  left: calc(-10vw);
+}
+
+:local(.part4) {
+  left: -15vw;
+  z-index: 40;
+}
+
+:local(.part5) {
+  left: 35vw;
+  z-index: 50;
+}

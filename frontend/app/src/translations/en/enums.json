@@ -1,0 +1,14 @@
+{
+    "grade": {
+        "freshman": "Freshman",
+        "sophomore": "Sophomore",
+        "junior": "Junior",
+        "senior": "Senior"
+    },
+    "contactReason": {
+        "technicalSupport": "Technical Support",
+        "generalQuestions": "General Questions",
+        "feedback": "Feedback",
+        "anythingElse": "Anything Else"
+    }
+}

@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RecommendedUniversity component should render and match the snapshot loading 1`] = `
+<div
+  class="card card"
+  data-test="card"
+>
+  <div
+    class="card-body container"
+    data-test="card-body"
+  >
+    <span
+      class="MuiSkeleton-root MuiSkeleton-circular MuiSkeleton-pulse css-fomgco-MuiSkeleton-root"
+      style="width: 64px; height: 64px;"
+    />
+    <div
+      class="details"
+    >
+      <h3
+        class="mb-2 mb-md-0"
+      >
+        <span
+          class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse css-1n7gpw1-MuiSkeleton-root"
+          style="width: 150px;"
+        />
+      </h3>
+      <span>
+        <span
+          class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse css-1n7gpw1-MuiSkeleton-root"
+          style="width: 200px;"
+        />
+      </span>
+    </div>
+    <span
+      class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse button css-1n7gpw1-MuiSkeleton-root"
+      style="width: 125px; height: 40px;"
+    />
+  </div>
+</div>
+`;
+
+exports[`RecommendedUniversity component should render and match the snapshot university 1`] = `
+<div
+  class="card card"
+  data-test="card"
+>
+  <div
+    class="card-body container"
+    data-test="card-body"
+  >
+    <div
+      class="badgeContainer"
+    >
+      <div
+        class="container red"
+      >
+        Average Match (84%)
+      </div>
+    </div>
+    <div
+      class="profilePhoto"
+    >
+      <span>
+        QU
+      </span>
+    </div>
+    <div
+      class="details"
+    >
+      <a
+        class="name"
+        href="/university/6536"
+      >
+        quia University
+      </a>
+      <span
+        class="text-3"
+      >
+        New Valentinatown, MO
+      </span>
+    </div>
+    <button
+      class="primary-button button default-button xs-button blue-button"
+    >
+      Follow
+    </button>
+  </div>
+</div>
+`;

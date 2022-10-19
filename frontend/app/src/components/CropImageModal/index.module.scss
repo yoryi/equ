@@ -1,0 +1,24 @@
+:local(.modal) {
+  display: flex;
+  height: calc(100% - 3.5rem);
+  max-height: 617px;
+
+  :local(.header) {
+    margin-top: 0;
+  }
+
+  :local(.body) {
+    max-height: calc(100% - 142px);
+    height: 100%;
+  }
+
+  :local(.footer) {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0;
+
+    :local(.cancel) {
+      margin-top: 0;
+    }
+  }
+}

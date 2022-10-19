@@ -1,0 +1,9 @@
+:local(.link) {
+    color: black;
+    text-decoration: underline;
+
+    &:hover {
+        color: var(--main-blue);
+        text-decoration: underline;
+    }
+}

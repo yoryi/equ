@@ -1,0 +1,95 @@
+:local(.studentPostReviewListTitle) {
+    margin-left: 80px;
+}
+:local(.card) {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 48px;
+    width: 95vw;
+
+    :local(.table) {
+        & > div:first-child {
+            justify-content: flex-end !important;
+            padding: 0 15px;
+        }
+
+        table {
+            margin-top: 20px;
+            padding-right: 0px;
+        }
+        th,
+        td {
+            padding: 12px 16px;
+            border: 2px solid var(--light-grey) !important;
+        }
+        th {
+            text-align: center;
+            cursor: default;
+        }
+        tr {
+            background-color: #fff !important;
+        }
+        input {
+            height: 48px;
+            border-radius: 6px;
+            font-size: 16px;
+            box-shadow: none;
+            padding-left: 40px;
+            &:focus {
+                border-color: var(--main-blue);
+            }
+        }
+        input {
+            background-image: url(../../../assets/search-icon.svg);
+            background-position: 10px center;
+            background-repeat: no-repeat;
+        }
+    }
+}
+
+:local(.cardsRow) {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
+:local(.awards) {
+    :local(.awardsTableRow) {
+        border-bottom: 1px solid var(--light-grey);
+        padding-top: 16px;
+        padding-bottom: 16px;
+        &:first-child {
+            padding-top: 0px;
+        }
+        &:last-child {
+            border-bottom: none;
+        }
+    }
+    :local(.awardsTableName) {
+        font-family: Ilisarniq, sans-serif;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 100%;
+        color: var(--main-dark);
+        margin-bottom: 8px;
+    }
+    :local(.awardsTableOrganisation) {
+        font-family: Ilisarniq, sans-serif;
+        font-size: 18px;
+        line-height: 156%;
+        color: var(--grey);
+        margin-bottom: 3px;
+    }
+    :local(.awardsTableDate) {
+        font-family: Ilisarniq, sans-serif;
+        font-size: 14px;
+        line-height: 143%;
+        color: var(--grey);
+    }
+}
+
+:local(.deleteModalContainer),
+:local(.emailModalContainer) {
+    div {
+        width: auto !important;
+    }
+}

@@ -1,0 +1,49 @@
+# environment variables
+**/env/.local.env
+**/env/.prod.env
+**/config.json
+
+**/.DS_Store
+**/node_modules
+**/npm*.log
+**/yarn*.log
+**/lerna*.log
+**/report.*
+
+# serverless zip
+**/.serverless
+# webpack build files
+**/.webpack
+
+# eslint cache
+**/.eslintcache
+
+# editors
+**/*.swp
+**/.idea
+**/coverage/
+**/.nyc_output/
+**/test-libraries/
+**/test/manualtest.js
+
+# lock files
+**/shrinkwrap.yaml
+**/package-lock.json
+
+# docs
+**/docs/redoc*
+**/docs/index.html
+**/docs/.spec.json
+
+# app's ssr index.html in development
+**/app/index.html
+**/app/build
+
+# Android/IntelliJ
+**/android/**/build/
+**/android/**/.idea
+**/android/**/.gradle
+**/android/**/local.properties
+**/android/**/*.iml
+**/android/**/key-store
+**/android/**/release

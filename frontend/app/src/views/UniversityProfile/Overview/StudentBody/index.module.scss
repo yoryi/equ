@@ -1,0 +1,9 @@
+@import "src/styles/mixins/card/stats";
+
+:local(.cardText) {
+  @include statsCardContainer;
+
+  :local(.row) {
+    @include statsCardRow;
+  }
+}

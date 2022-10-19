@@ -1,0 +1,12 @@
+{
+  "private": true,
+  "name": "@10stars/tdd-unit-testing",
+  "version": "0.0.0",
+  "dependencies": {
+    "babel-jest": "^27.0.0-next.6",
+    "jest": "^27.0.0-next.6",
+    "kill-port": "^1.6.1",
+    "local-dynamo": "^0.6.0",
+    "yargs": "^16.2.0"
+  }
+}

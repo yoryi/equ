@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SurveyProgressBar component should render and match the snapshot survey is loaded 1`] = `
+<div
+  class="container"
+>
+  <div
+    class="progress"
+    style="width: 0%;"
+  />
+</div>
+`;
+
+exports[`SurveyProgressBar component should render and match the snapshot survey is not loaded 1`] = `
+<div
+  class="container"
+>
+  <div
+    class="progress"
+    style="width: 0%;"
+  />
+</div>
+`;

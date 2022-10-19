@@ -1,0 +1,9 @@
+@mixin description {
+  font-family: Ilisarniq, sans-serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: var(--grey);
+}

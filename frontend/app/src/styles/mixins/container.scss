@@ -1,0 +1,19 @@
+@import "src/styles/mixins/breakpoints";
+
+@mixin container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  width: 960px;
+  margin: 40px auto 60px auto;
+  padding-top: 80px;
+
+  @include breakpoint('medium') {
+    width: 100%;
+    padding: 80px 20px 20px 20px;
+  }
+
+  @include breakpoint('small') {
+    padding: 80px 24px 20px 24px;
+  }
+}

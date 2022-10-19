@@ -1,0 +1,49 @@
+@import "src/styles/mixins/breakpoints";
+@import "src/styles/mixins/container";
+
+:local(.backgroundContainer) {
+  flex-grow: 1;
+  padding-bottom: 120px;
+  background-color: var(--light-blue);
+
+  :local(.container) {
+    @include container;
+    margin-bottom: 0;
+
+    section {
+      &:not(:last-of-type) {
+        margin-bottom: 128px;
+      }
+
+      h2 {
+        margin-bottom: 56px;
+
+        @include breakpoint('small') {
+          margin-bottom: 8px;
+        }
+      }
+
+      :local(.row) {
+        &:not(:empty) {
+          margin-bottom: 16px;
+        }
+
+        :local(.map) > div {
+          height: 100%;
+        }
+
+        & > div {
+          &:not(:first-child) {
+            @include breakpoint('medium') {
+              margin-top: 16px;
+            }
+          }
+
+          & > :global(.card) {
+            height: 100%;
+          }
+        }
+      }
+    }
+  }
+}

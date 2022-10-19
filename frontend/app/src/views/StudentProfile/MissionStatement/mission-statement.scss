@@ -1,0 +1,114 @@
+.mission-statement-read-more {
+    max-width: 700px;
+    margin: auto;
+    margin-bottom: 60px;
+    margin-top: 120px;
+    &-breadcrumbs {
+        font-family: Ilisarniq, sans-serif;
+        font-size: 12px;
+        line-height: 150%;
+        color: var(--main-dark)
+        img {
+            margin: 0 4px 6px 4px;
+        }
+        span {
+            cursor: pointer;
+            &:last-child {
+                cursor: default;
+                color: var(--grey);
+            }
+        }
+    }
+    &-title {
+        margin-top: 60px;
+        font-family: Telegraf, sans-serif;
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 91%;
+        letter-spacing: -0.02em;
+        color: #1d1d1d;
+        img {
+            margin-left: 40px;
+            cursor: pointer;
+        }
+    }
+    &-text {
+        margin-top: 10px;
+        font-family: Ilisarniq, sans-serif;
+        color: var(--main-blue);
+        font-weight: bold;
+        font-size: 24px!important;
+        line-height: 133%;
+        white-space: pre-wrap;
+        p {
+            * {
+                font-size: 24px!important;
+                font-family: Ilisarniq, sans-serif!important;
+                font-weight: bold!important;
+            }
+        }
+    }
+    &-item {
+        &-title {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+            margin-top: 60px;
+            font-family: Ilisarniq, sans-serif;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 133%;
+            letter-spacing: -0.04em;
+            color: var(--main-dark);
+            margin-bottom: 20px;
+            div {
+                max-width: 80%;
+            }
+            img {
+                cursor: pointer;
+            }
+        }
+        &-text {
+            font-family: Ilisarniq, sans-serif;
+            font-size: 18px;
+            line-height: 28px;
+            font-weight: normal;
+            color: var(--dark-grey);
+            margin-top: 10px;
+            white-space: pre-wrap;
+        }
+    }
+}
+
+.your-beat-mission-statement {
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+    margin-top: 40px;
+    .card-body {
+        margin-top: 10px;
+        p {
+            margin-top: 0px;
+        }
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .mission-statement-read-more {
+        padding: 0px 24px;
+        &-title {
+            font-size: 32px;
+            img {
+                margin-left: 12px;
+            }
+        }
+        &-item {
+            &-title {
+                font-size: 20px;
+            }
+            &-text {
+                font-size: 16px;
+            }
+        }
+    }
+}

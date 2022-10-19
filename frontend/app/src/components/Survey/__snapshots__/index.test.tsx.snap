@@ -1,0 +1,108 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Survey component should render and match the snapshot loaded completed 1`] = `
+<div
+  class="container"
+>
+  <div
+    class="iconBox"
+  >
+    <svg>
+      book.svg
+    </svg>
+  </div>
+  <h1
+    class="title"
+  >
+    at voluptas
+  </h1>
+  <p
+    class="description"
+  >
+    Quia est quod et reprehenderit veritatis sit.
+  </p>
+  <div
+    class="d-flex justify-content-center"
+  >
+    <a
+      class="primary-button button default-button auto-button blue-button"
+      href="/surveys/survey/2331"
+    >
+      Update Answers
+    </a>
+  </div>
+</div>
+`;
+
+exports[`Survey component should render and match the snapshot loaded not completed 1`] = `
+<div
+  class="container"
+>
+  <div
+    class="iconBox"
+  >
+    <svg>
+      book.svg
+    </svg>
+  </div>
+  <h1
+    class="title"
+  >
+    fugit est
+  </h1>
+  <p
+    class="description"
+  >
+    Aut atque ea officiis pariatur non perferendis ipsa nisi qui.
+  </p>
+  <div
+    class="d-flex justify-content-center"
+  >
+    <a
+      class="primary-button button default-button auto-button blue-button"
+      href="/surveys/survey/2055"
+    >
+      Take Survey
+    </a>
+  </div>
+</div>
+`;
+
+exports[`Survey component should render and match the snapshot loading 1`] = `
+<div
+  class="container"
+>
+  <span
+    class="MuiSkeleton-root MuiSkeleton-circular MuiSkeleton-pulse css-fomgco-MuiSkeleton-root"
+    style="width: 48px; height: 48px;"
+  />
+  <h1
+    class="title"
+  >
+    <span
+      class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse mt-2 css-1n7gpw1-MuiSkeleton-root"
+      style="width: 150px;"
+    />
+  </h1>
+  <p
+    class="description"
+  >
+    <span
+      class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse d-flex flex-column my-1 css-1n7gpw1-MuiSkeleton-root"
+      style="width: 175px;"
+    />
+    <span
+      class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse d-flex flex-column my-1 css-1n7gpw1-MuiSkeleton-root"
+      style="width: 175px; margin-top: 8px;"
+    />
+    <span
+      class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse d-flex flex-column my-1 css-1n7gpw1-MuiSkeleton-root"
+      style="width: 175px; margin-top: 8px;"
+    />
+  </p>
+  <span
+    class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse mt-4 css-1n7gpw1-MuiSkeleton-root"
+    style="width: 175px; height: 48px;"
+  />
+</div>
+`;

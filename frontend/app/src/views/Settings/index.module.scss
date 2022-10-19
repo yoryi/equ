@@ -1,0 +1,37 @@
+@import "src/styles/mixins/container";
+@import "src/styles/mixins/breakpoints";
+
+:local(.container) {
+  @include container;
+  margin-top: 136px;
+
+  @include breakpoint('small') {
+    margin-top: 16px;
+  }
+
+  h1 {
+    margin-bottom: 48px;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    margin: -10px 0;
+
+    & > div {
+      margin: 10px 0;
+
+      a {
+        padding-bottom: 4px;
+        font-size: 16px;
+        line-height: 24px;
+        color: var(--main-dark);
+        transition: none;
+
+        &:global(.active) {
+          border-bottom: 2px solid var(--main-dark);
+        }
+      }
+    }
+  }
+}

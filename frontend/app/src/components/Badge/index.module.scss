@@ -1,0 +1,27 @@
+:local(.container) {
+    display: inline-block;
+    padding: 5px 12px;
+    border-radius: 6px;
+    font-size: 12px;
+    line-height: 18px;
+
+    &:local(.green) {
+        background-color: var(--green-10);
+        color: var(--green);
+    }
+
+    &:local(.yellow) {
+        background-color: var(--chromeYellow-20);
+        color: var(--chromeYellow);
+    }
+
+    &:local(.red) {
+        background-color: var(--light-red);
+        color: var(--main-red);
+    }
+
+    &:local(.gray) {
+        background-color: var(--light-grey);
+        color: var(--grey);
+    }
+}

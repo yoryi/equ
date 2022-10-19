@@ -1,0 +1,52 @@
+@import "src/styles/mixins/breakpoints";
+@import "src/styles/mixins/icon-box";
+
+:local(.container) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-basis: 400px;
+  max-width: 400px;
+  font-family: Ilisarniq, sans-serif;
+  text-align: center;
+  padding: 0 32px;
+
+  @include breakpoint('small') {
+    padding: 28px 0;
+  }
+
+  @include breakpoint('small') {
+    padding: 0;
+  }
+
+  :local(.iconBox) {
+    @include icon-box;
+    margin-bottom: 28px;
+  }
+
+  :local(.title) {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    color: var(--main-dark);
+  }
+
+  :local(.description) {
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--dark-grey);
+    margin: 0;
+
+    @include breakpoint('small') {
+      font-size: 14px;
+    }
+  }
+
+  :local(.button) {
+    margin-top: 28px;
+
+    @include breakpoint('small') {
+      margin-top: 12px;
+    }
+  }
+}

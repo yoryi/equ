@@ -1,0 +1,9 @@
+@import "src/styles/mixins/card/chart";
+
+:local(.container) {
+  @include chartCardContainer;
+
+  :local(.label) {
+    @include chartCardLabel;
+  }
+}

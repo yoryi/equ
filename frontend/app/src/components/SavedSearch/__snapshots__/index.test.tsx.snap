@@ -1,0 +1,308 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SavedSearch component should render and match the snapshot no matching count 1`] = `
+<div
+  class="d-flex justify-content-between align-items-center"
+>
+  <a
+    class="d-flex flex-column flex-sm-row align-items-sm-end font-weight-semi-bold"
+    href="/search"
+    role="search"
+  >
+    nisi qui
+    <span
+      class="text-3 ml-0 ml-sm-2"
+    >
+      (0 matches)
+    </span>
+  </a>
+  <button
+    class="button secondary red"
+    role="delete"
+  >
+    <div
+      class="content loader exited"
+    >
+      <div
+        aria-busy="true"
+        class=""
+      >
+        <svg
+          aria-label="audio-loading"
+          fill="#c91c0d"
+          height="24"
+          viewBox="0 0 120 30"
+          width="24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <circle
+            cx="15"
+            cy="15"
+            r="15"
+          >
+            <animate
+              attributeName="r"
+              begin="0s"
+              calcMode="linear"
+              dur="0.8s"
+              from="15"
+              repeatCount="indefinite"
+              to="15"
+              values="15;9;15"
+            />
+            <animate
+              attributeName="fillOpacity"
+              begin="0s"
+              calcMode="linear"
+              dur="0.8s"
+              from="1"
+              repeatCount="indefinite"
+              to="1"
+              values="1;.5;1"
+            />
+          </circle>
+          <circle
+            attributeName="fillOpacity"
+            cx="60"
+            cy="15"
+            from="1"
+            r="9"
+            to="0.3"
+          >
+            <animate
+              attributeName="r"
+              begin="0s"
+              calcMode="linear"
+              dur="0.8s"
+              from="9"
+              repeatCount="indefinite"
+              to="9"
+              values="9;15;9"
+            />
+            <animate
+              attributeName="fillOpacity"
+              begin="0s"
+              calcMode="linear"
+              dur="0.8s"
+              from="0.5"
+              repeatCount="indefinite"
+              to="0.5"
+              values=".5;1;.5"
+            />
+          </circle>
+          <circle
+            cx="105"
+            cy="15"
+            r="15"
+          >
+            <animate
+              attributeName="r"
+              begin="0s"
+              calcMode="linear"
+              dur="0.8s"
+              from="15"
+              repeatCount="indefinite"
+              to="15"
+              values="15;9;15"
+            />
+            <animate
+              attributeName="fillOpacity"
+              begin="0s"
+              calcMode="linear"
+              dur="0.8s"
+              from="1"
+              repeatCount="indefinite"
+              to="1"
+              values="1;.5;1"
+            />
+          </circle>
+        </svg>
+      </div>
+    </div>
+    <div
+      class="content entered"
+    >
+      <svg>
+        close-icon-white.svg
+      </svg>
+    </div>
+    <div
+      class="content success exited"
+    >
+      <svg>
+        check.svg
+      </svg>
+    </div>
+    <div
+      class="content exited"
+    >
+      <svg>
+        close-icon-white.svg
+      </svg>
+    </div>
+  </button>
+</div>
+`;
+
+exports[`SavedSearch component should render and match the snapshot non removable 1`] = `
+<div
+  class="d-flex justify-content-between align-items-center"
+>
+  <a
+    class="d-flex flex-column flex-sm-row align-items-sm-end font-weight-semi-bold"
+    href="/search"
+    role="search"
+  >
+    quia fugit
+    <span
+      class="text-3 ml-0 ml-sm-2"
+    >
+      (649 matches)
+    </span>
+  </a>
+</div>
+`;
+
+exports[`SavedSearch component should render and match the snapshot removable 1`] = `
+<div
+  class="d-flex justify-content-between align-items-center"
+>
+  <a
+    class="d-flex flex-column flex-sm-row align-items-sm-end font-weight-semi-bold"
+    href="/search"
+    role="search"
+  >
+    ea officiis
+    <span
+      class="text-3 ml-0 ml-sm-2"
+    >
+      (865 matches)
+    </span>
+  </a>
+  <button
+    class="button secondary red"
+    role="delete"
+  >
+    <div
+      class="content loader exited"
+    >
+      <div
+        aria-busy="true"
+        class=""
+      >
+        <svg
+          aria-label="audio-loading"
+          fill="#c91c0d"
+          height="24"
+          viewBox="0 0 120 30"
+          width="24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <circle
+            cx="15"
+            cy="15"
+            r="15"
+          >
+            <animate
+              attributeName="r"
+              begin="0s"
+              calcMode="linear"
+              dur="0.8s"
+              from="15"
+              repeatCount="indefinite"
+              to="15"
+              values="15;9;15"
+            />
+            <animate
+              attributeName="fillOpacity"
+              begin="0s"
+              calcMode="linear"
+              dur="0.8s"
+              from="1"
+              repeatCount="indefinite"
+              to="1"
+              values="1;.5;1"
+            />
+          </circle>
+          <circle
+            attributeName="fillOpacity"
+            cx="60"
+            cy="15"
+            from="1"
+            r="9"
+            to="0.3"
+          >
+            <animate
+              attributeName="r"
+              begin="0s"
+              calcMode="linear"
+              dur="0.8s"
+              from="9"
+              repeatCount="indefinite"
+              to="9"
+              values="9;15;9"
+            />
+            <animate
+              attributeName="fillOpacity"
+              begin="0s"
+              calcMode="linear"
+              dur="0.8s"
+              from="0.5"
+              repeatCount="indefinite"
+              to="0.5"
+              values=".5;1;.5"
+            />
+          </circle>
+          <circle
+            cx="105"
+            cy="15"
+            r="15"
+          >
+            <animate
+              attributeName="r"
+              begin="0s"
+              calcMode="linear"
+              dur="0.8s"
+              from="15"
+              repeatCount="indefinite"
+              to="15"
+              values="15;9;15"
+            />
+            <animate
+              attributeName="fillOpacity"
+              begin="0s"
+              calcMode="linear"
+              dur="0.8s"
+              from="1"
+              repeatCount="indefinite"
+              to="1"
+              values="1;.5;1"
+            />
+          </circle>
+        </svg>
+      </div>
+    </div>
+    <div
+      class="content entered"
+    >
+      <svg>
+        close-icon-white.svg
+      </svg>
+    </div>
+    <div
+      class="content success exited"
+    >
+      <svg>
+        check.svg
+      </svg>
+    </div>
+    <div
+      class="content exited"
+    >
+      <svg>
+        close-icon-white.svg
+      </svg>
+    </div>
+  </button>
+</div>
+`;

@@ -1,0 +1,16 @@
+export const gradeOptions = [
+  { id: 1, name: `A+` },
+  { id: 2, name: `A` },
+  { id: 3, name: `A-` },
+  { id: 4, name: `B+` },
+  { id: 5, name: `B` },
+  { id: 6, name: `B-` },
+  { id: 7, name: `C+` },
+  { id: 8, name: `C` },
+  { id: 9, name: `C-` },
+  { id: 10, name: `D+` },
+  { id: 11, name: `D` },
+  { id: 12, name: `F` },
+  { id: 13, name: `Pass` },
+  { id: 14, name: `Fail` },
+]

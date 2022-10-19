@@ -1,0 +1,13 @@
+@import "src/styles/mixins/breakpoints";
+
+@mixin title {
+  font-family: Telegraf, sans-serif;
+  font-weight: 800;
+  font-size: 44px;
+  line-height: 91%;
+  color: var(--secondary-dark);
+
+  @include breakpoint('small') {
+    font-size: 32px;
+  }
+}

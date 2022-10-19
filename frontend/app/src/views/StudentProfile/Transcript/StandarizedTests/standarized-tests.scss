@@ -1,0 +1,228 @@
+@import "src/styles/mixins/breakpoints";
+
+.standarized-chart {
+    margin-top: -20px;
+    width: 280px !important;
+    height: 280px !important;
+
+    &-title {
+        text-align: center;
+        font-family: Ilisarniq, sans-serif;
+        font-size: 14px;
+        line-height: 143%;
+        color: var(--grey);
+        font-style: italic;
+    }
+
+    &-label-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    &-label-title {
+        font-family: Ilisarniq, sans-serif;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 133%;
+        color: var(--main-dark);
+    }
+
+    &-label-subtitle {
+        font-family: Ilisarniq, sans-serif;
+        font-size: 16px;
+        line-height: 150%;
+        color: var(--grey);
+    }
+
+    &-sublabel-title {
+        font-family: Ilisarniq, sans-serif;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 111%;
+        color: var(--secondary-dark);
+    }
+
+    &-sublabel-subtitle {
+        font-family: Ilisarniq, sans-serif;
+        font-size: 14px;
+        line-height: 143%;
+        color: var(--grey);
+    }
+}
+
+.standarized-tests-modal-datepicker-container {
+    width: 310px;
+
+    .react-datepicker-wrapper {
+        width: 310px;
+
+        input {
+            width: 310px;
+        }
+    }
+}
+
+.standarized-edit-icon {
+    text-align: right;
+
+    img {
+        cursor: pointer;
+    }
+}
+
+.standardized-test-input {
+    margin-left: 10px;
+    margin-right: 10px;
+    max-width: 310px;
+    margin-top: 0px;
+    label {
+        white-space: break-spaces;
+    }
+}
+
+.add-your-sat-score-modal-row {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    width: 100%;
+    max-width: 660px;
+    margin: 0 -10px;
+}
+
+.add-your-sat-score-modal-row.datepicker {
+
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  width: 100%;
+  max-width: 660px;
+  margin: 0 -10px;
+
+  .text-field {
+    margin: 8px 10px 0 10px;
+  }
+}
+
+.add-your-sat-score-modal-row.datepicker {
+  justify-content: flex-start;
+  margin: 0 -10px;
+  margin-bottom: 28px;
+
+    @media (max-width: 1024px) {
+        padding: 0;
+
+        .custom-datepicker-select-fields {
+            margin: 0 -10px;
+        }
+    }
+
+    .custom-datepicker {
+        width: 100%;
+    }
+
+    .select-field {
+        margin: 0 10px;
+
+        &:not(:first-child) {
+            margin-top: 28px !important;
+        }
+    }
+}
+
+.add-your-sat-score-modal-row.second-row {
+    max-width: 660px;
+
+    .text-field {
+        width: 200px !important;
+
+        label {
+            line-height: 100%;
+        }
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .standarized-chart {
+        width: 180px !important;
+        height: 180px !important;
+
+        &-title {
+            font-size: 12px;
+        }
+
+        &-label-title {
+            font-size: 16px;
+        }
+
+        &-label-subtitle {
+            font-size: 10px;
+        }
+
+        &-sublabel-title {
+            font-size: 12px;
+        }
+
+        &-sublabel-subtitle {
+            font-size: 8px;
+        }
+    }
+
+    .standarized-tests-modal-datepicker-container {
+        margin-left: 0px;
+    }
+    .add-your-sat-score-modal-row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+
+        &.datepicker {
+            margin-bottom: 24px;
+        }
+
+        .text-field {
+            width: 100% !important;
+        }
+    }
+
+    .add-your-sat-score-modal-row.datepicker {
+        justify-content: flex-start;
+        max-width: 100%;
+    }
+    .add-your-sat-score-modal-row.second-row {
+        & > div,
+        .text-field {
+            width: 100% !important;
+        }
+
+        .date-picker-label {
+            margin-left: 0px !important;
+        }
+    }
+    .standardized-test-input {
+        margin-left: 0px;
+        margin-right: 0px;
+        max-width: none;
+    }
+}
+
+.choose-test {
+    .select-field {
+        width: 100%;
+        max-width: 310px;
+    }
+
+    .custom-datepicker-select-fields {
+        margin: 0 -4px;
+
+        .select-field {
+            margin: 0 4px;
+
+            &:last-child {
+                margin-top: 28px !important;
+            }
+        }
+    }
+}

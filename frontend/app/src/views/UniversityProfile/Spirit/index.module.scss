@@ -1,0 +1,13 @@
+@import "src/styles/mixins/container";
+
+:local(.backgroundContainer) {
+  background-color: var(--light-red);
+
+  :local(.container) {
+    @include container;
+    
+    :local(.row) {
+      margin-top: 56px;
+    }
+  }
+}
